@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6da334958041d314487c56e94e604a36, type: 3}
+  m_Name: JumpPlayer
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 3f7675eb01226f641a9678f07f15babf, type: 2}
+  transitions:
+  - decision: {fileID: 11400000, guid: 8dbb3a6966197f444ad187c2216eae42, type: 2}
+    trueState: {fileID: 11400000, guid: 9f866d0eff50fc8458c3335d1c06e0d4, type: 2}
+    falseState: {fileID: 11400000, guid: 9f866d0eff50fc8458c3335d1c06e0d4, type: 2}

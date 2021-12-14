@@ -11,11 +11,17 @@ namespace FSM
         public State remainState;  // el estado en el que te quedas si no pasas a la siguiente
 
         private HealthSystem _healthSystem;
+
+        private InputSystemKeyboard _inputSystemKeyboard;
         internal int GetCurrentHealth()
         {
             return _healthSystem.GetHealth();
         }
 
+        internal float GetInput()
+        {
+            return _inputSystemKeyboard.ver;
+        }
         public void SetAnimation(string animation, bool value)
         {
             _animatorController.SetBool(animation, value);
@@ -35,6 +41,7 @@ namespace FSM
         {
             _animatorController = GetComponent<Animator>();
             _healthSystem = GetComponent<HealthSystem>();
+            _inputSystemKeyboard = GetComponent<InputSystemKeyboard>();
         }
 
         public void Update() // Se ejecutan las acciones del estado actual.

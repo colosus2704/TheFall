@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using FSM;
 
-[CreateAssetMenu(menuName = "FSM/Player/Action/Shoot")]
-public class ShootAction : FSM.Action
+[CreateAssetMenu(menuName = "FSM/Player/Action/Jump")]
+public class JumpAction : FSM.Action
 {
     public override void Act(Controller controller)
     {
         controller.SetAnimation("idle", false);
-        controller.SetAnimation("shoot", true);
+        controller.SetAnimation("shoot", false);
         controller.SetAnimation("dash", false);
-        controller.SetAnimation("jump", false);
+        controller.SetAnimation("jump", true);
     }
 }
