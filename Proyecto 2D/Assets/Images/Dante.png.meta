@@ -103,13 +103,13 @@ TextureImporter:
     second: Dante_32
   - first:
       213: -4865984332255455343
-    second: Dante_33
+    second: Dante_31
   - first:
       213: -6161425252353741808
-    second: Dante_34
+    second: Dante_30
   - first:
       213: 8578873019044693889
-    second: Dante_35
+    second: Dante_29
   - first:
       213: 6938969012662809831
     second: Dante_36
@@ -839,6 +839,9 @@ TextureImporter:
   - first:
       213: 6582448739105256514
     second: Dante_278
+  - first:
+      213: 3096666230547368477
+    second: Dante_279
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -931,12 +934,12 @@ TextureImporter:
       name: Dante_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 6472
-        width: 362
-        height: 111
+        x: 42
+        y: 6317
+        width: 120
+        height: 120
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -952,12 +955,12 @@ TextureImporter:
       name: Dante_1
       rect:
         serializedVersion: 2
-        x: 484
-        y: 6315
-        width: 153
-        height: 268
+        x: 916
+        y: 6305
+        width: 109
+        height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -973,12 +976,12 @@ TextureImporter:
       name: Dante_2
       rect:
         serializedVersion: 2
-        x: 1338
-        y: 6318
-        width: 162
-        height: 176
+        x: 1441
+        y: 6471
+        width: 58
+        height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -994,12 +997,12 @@ TextureImporter:
       name: Dante_3
       rect:
         serializedVersion: 2
-        x: 66
-        y: 6302
-        width: 70
-        height: 112
+        x: 269
+        y: 6311
+        width: 109
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1015,12 +1018,12 @@ TextureImporter:
       name: Dante_4
       rect:
         serializedVersion: 2
-        x: 275
-        y: 6312
-        width: 112
-        height: 112
+        x: 507
+        y: 6291
+        width: 89
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1036,12 +1039,12 @@ TextureImporter:
       name: Dante_5
       rect:
         serializedVersion: 2
-        x: 634
-        y: 6318
-        width: 148
+        x: 716
+        y: 6317
+        width: 151
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1057,12 +1060,12 @@ TextureImporter:
       name: Dante_6
       rect:
         serializedVersion: 2
-        x: 904
-        y: 6292
-        width: 90
-        height: 113
+        x: 1111
+        y: 6311
+        width: 113
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1078,12 +1081,12 @@ TextureImporter:
       name: Dante_7
       rect:
         serializedVersion: 2
-        x: 1123
-        y: 6312
-        width: 107
-        height: 89
+        x: 1363
+        y: 6301
+        width: 70
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1099,12 +1102,12 @@ TextureImporter:
       name: Dante_8
       rect:
         serializedVersion: 2
-        x: 11
-        y: 6147
-        width: 135
-        height: 87
+        x: 72
+        y: 6137
+        width: 100
+        height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1120,12 +1123,12 @@ TextureImporter:
       name: Dante_9
       rect:
         serializedVersion: 2
-        x: 210
-        y: 6141
-        width: 148
-        height: 93
+        x: 262
+        y: 6134
+        width: 113
+        height: 147
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1141,12 +1144,12 @@ TextureImporter:
       name: Dante_10
       rect:
         serializedVersion: 2
-        x: 480
+        x: 442
         y: 6131
-        width: 87
-        height: 164
+        width: 142
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,12 +1165,12 @@ TextureImporter:
       name: Dante_11
       rect:
         serializedVersion: 2
-        x: 708
-        y: 6135
-        width: 90
-        height: 163
+        x: 700
+        y: 6134
+        width: 93
+        height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1183,12 +1186,12 @@ TextureImporter:
       name: Dante_12
       rect:
         serializedVersion: 2
-        x: 914
-        y: 6132
-        width: 144
-        height: 122
+        x: 935
+        y: 6130
+        width: 86
+        height: 164
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1204,12 +1207,12 @@ TextureImporter:
       name: Dante_13
       rect:
         serializedVersion: 2
-        x: 1126
-        y: 6135
-        width: 112
-        height: 147
+        x: 1144
+        y: 6140
+        width: 144
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1225,12 +1228,12 @@ TextureImporter:
       name: Dante_14
       rect:
         serializedVersion: 2
-        x: 1328
-        y: 6138
-        width: 100
-        height: 141
+        x: 1353
+        y: 6147
+        width: 135
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1246,12 +1249,12 @@ TextureImporter:
       name: Dante_15
       rect:
         serializedVersion: 2
-        x: 15
-        y: 5966
-        width: 141
-        height: 108
+        x: 56
+        y: 5960
+        width: 119
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1267,12 +1270,12 @@ TextureImporter:
       name: Dante_16
       rect:
         serializedVersion: 2
-        x: 268
-        y: 5967
-        width: 116
-        height: 78
+        x: 246
+        y: 5970
+        width: 135
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1288,12 +1291,12 @@ TextureImporter:
       name: Dante_17
       rect:
         serializedVersion: 2
-        x: 487
-        y: 5971
-        width: 135
+        x: 455
+        y: 5970
+        width: 138
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1309,12 +1312,12 @@ TextureImporter:
       name: Dante_18
       rect:
         serializedVersion: 2
-        x: 696
-        y: 5971
-        width: 137
+        x: 667
+        y: 5970
+        width: 136
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1330,12 +1333,12 @@ TextureImporter:
       name: Dante_19
       rect:
         serializedVersion: 2
-        x: 907
-        y: 5971
+        x: 877
+        y: 5970
         width: 138
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1351,12 +1354,12 @@ TextureImporter:
       name: Dante_20
       rect:
         serializedVersion: 2
-        x: 1119
-        y: 5971
-        width: 135
-        height: 128
+        x: 1115
+        y: 5967
+        width: 119
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1372,12 +1375,12 @@ TextureImporter:
       name: Dante_21
       rect:
         serializedVersion: 2
-        x: 1323
-        y: 5961
-        width: 121
-        height: 93
+        x: 1343
+        y: 5964
+        width: 142
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1393,12 +1396,12 @@ TextureImporter:
       name: Dante_22
       rect:
         serializedVersion: 2
-        x: 63
-        y: 5775
-        width: 73
-        height: 106
+        x: 95
+        y: 5767
+        width: 99
+        height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1414,12 +1417,12 @@ TextureImporter:
       name: Dante_23
       rect:
         serializedVersion: 2
-        x: 259
-        y: 5775
-        width: 89
-        height: 112
+        x: 307
+        y: 5767
+        width: 97
+        height: 121
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1435,12 +1438,12 @@ TextureImporter:
       name: Dante_24
       rect:
         serializedVersion: 2
-        x: 461
-        y: 5771
-        width: 99
-        height: 119
+        x: 516
+        y: 5768
+        width: 97
+        height: 120
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1456,12 +1459,12 @@ TextureImporter:
       name: Dante_25
       rect:
         serializedVersion: 2
-        x: 676
-        y: 5771
-        width: 99
-        height: 119
+        x: 725
+        y: 5769
+        width: 100
+        height: 120
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1477,12 +1480,12 @@ TextureImporter:
       name: Dante_26
       rect:
         serializedVersion: 2
-        x: 888
+        x: 941
         y: 5771
-        width: 96
-        height: 119
+        width: 99
+        height: 118
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1498,12 +1501,12 @@ TextureImporter:
       name: Dante_27
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 5768
-        width: 96
-        height: 121
+        x: 1153
+        y: 5774
+        width: 90
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1519,12 +1522,12 @@ TextureImporter:
       name: Dante_28
       rect:
         serializedVersion: 2
-        x: 1306
-        y: 5768
-        width: 99
-        height: 119
+        x: 1364
+        y: 5774
+        width: 72
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1537,15 +1540,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dante_29
+      name: Dante_35
       rect:
         serializedVersion: 2
-        x: 40
-        y: 5595
-        width: 100
-        height: 117
+        x: 92
+        y: 5597
+        width: 99
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1558,15 +1561,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dante_30
+      name: Dante_34
       rect:
         serializedVersion: 2
-        x: 252
-        y: 5595
-        width: 99
-        height: 115
+        x: 304
+        y: 5597
+        width: 100
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1579,15 +1582,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dante_31
+      name: Dante_33
       rect:
         serializedVersion: 2
-        x: 464
-        y: 5595
-        width: 96
-        height: 115
+        x: 516
+        y: 5597
+        width: 97
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1603,12 +1606,12 @@ TextureImporter:
       name: Dante_32
       rect:
         serializedVersion: 2
-        x: 673
-        y: 5595
-        width: 99
-        height: 117
+        x: 729
+        y: 5594
+        width: 96
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1621,15 +1624,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dante_33
+      name: Dante_31
       rect:
         serializedVersion: 2
-        x: 885
-        y: 5598
+        x: 938
+        y: 5594
         width: 99
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1642,15 +1645,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dante_34
+      name: Dante_30
       rect:
         serializedVersion: 2
-        x: 1097
-        y: 5598
-        width: 99
+        x: 1150
+        y: 5594
+        width: 96
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1663,15 +1666,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dante_35
+      name: Dante_29
       rect:
         serializedVersion: 2
-        x: 1309
-        y: 5598
-        width: 99
-        height: 114
+        x: 1362
+        y: 5594
+        width: 97
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1687,12 +1690,12 @@ TextureImporter:
       name: Dante_36
       rect:
         serializedVersion: 2
-        x: 43
-        y: 5421
-        width: 100
-        height: 116
+        x: 520
+        y: 5417
+        width: 67
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1708,12 +1711,12 @@ TextureImporter:
       name: Dante_37
       rect:
         serializedVersion: 2
-        x: 252
-        y: 5415
-        width: 100
-        height: 118
+        x: 716
+        y: 5436
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1729,12 +1732,12 @@ TextureImporter:
       name: Dante_38
       rect:
         serializedVersion: 2
-        x: 480
-        y: 5421
-        width: 77
+        x: 941
+        y: 5420
+        width: 80
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1750,12 +1753,12 @@ TextureImporter:
       name: Dante_39
       rect:
         serializedVersion: 2
-        x: 695
-        y: 5437
-        width: 90
-        height: 93
+        x: 1150
+        y: 5414
+        width: 98
+        height: 119
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1771,12 +1774,12 @@ TextureImporter:
       name: Dante_40
       rect:
         serializedVersion: 2
-        x: 914
-        y: 5418
-        width: 64
-        height: 109
+        x: 1359
+        y: 5420
+        width: 98
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1792,12 +1795,12 @@ TextureImporter:
       name: Dante_41
       rect:
         serializedVersion: 2
-        x: 50
-        y: 5261
-        width: 99
-        height: 102
+        x: 53
+        y: 5272
+        width: 145
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1813,12 +1816,12 @@ TextureImporter:
       name: Dante_42
       rect:
         serializedVersion: 2
-        x: 207
-        y: 5264
-        width: 109
-        height: 99
+        x: 211
+        y: 5272
+        width: 148
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1834,12 +1837,12 @@ TextureImporter:
       name: Dante_43
       rect:
         serializedVersion: 2
-        x: 365
-        y: 5270
-        width: 128
-        height: 98
+        x: 372
+        y: 5272
+        width: 151
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1855,12 +1858,12 @@ TextureImporter:
       name: Dante_44
       rect:
         serializedVersion: 2
-        x: 522
-        y: 5273
-        width: 119
-        height: 93
+        x: 523
+        y: 5272
+        width: 164
+        height: 94
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1876,12 +1879,12 @@ TextureImporter:
       name: Dante_45
       rect:
         serializedVersion: 2
-        x: 651
-        y: 5273
-        width: 154
+        x: 696
+        y: 5272
+        width: 152
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1897,12 +1900,12 @@ TextureImporter:
       name: Dante_46
       rect:
         serializedVersion: 2
-        x: 814
-        y: 5273
-        width: 161
+        x: 857
+        y: 5272
+        width: 122
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1918,12 +1921,12 @@ TextureImporter:
       name: Dante_47
       rect:
         serializedVersion: 2
-        x: 978
-        y: 5273
-        width: 151
-        height: 93
+        x: 1009
+        y: 5269
+        width: 128
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1939,12 +1942,12 @@ TextureImporter:
       name: Dante_48
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 5273
-        width: 150
-        height: 93
+        x: 1184
+        y: 5263
+        width: 111
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1960,12 +1963,12 @@ TextureImporter:
       name: Dante_49
       rect:
         serializedVersion: 2
-        x: 1303
-        y: 5273
-        width: 144
-        height: 93
+        x: 1353
+        y: 5260
+        width: 99
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1981,12 +1984,12 @@ TextureImporter:
       name: Dante_50
       rect:
         serializedVersion: 2
-        x: 2
-        y: 5119
-        width: 138
-        height: 93
+        x: 53
+        y: 5107
+        width: 77
+        height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2002,12 +2005,12 @@ TextureImporter:
       name: Dante_51
       rect:
         serializedVersion: 2
-        x: 185
-        y: 5109
-        width: 128
-        height: 106
+        x: 214
+        y: 5107
+        width: 122
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2023,12 +2026,12 @@ TextureImporter:
       name: Dante_52
       rect:
         serializedVersion: 2
-        x: 374
-        y: 5116
-        width: 93
-        height: 86
+        x: 378
+        y: 5107
+        width: 103
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2044,12 +2047,12 @@ TextureImporter:
       name: Dante_53
       rect:
         serializedVersion: 2
-        x: 567
-        y: 5100
-        width: 64
-        height: 109
+        x: 542
+        y: 5107
+        width: 74
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2065,12 +2068,12 @@ TextureImporter:
       name: Dante_54
       rect:
         serializedVersion: 2
-        x: 724
-        y: 5103
+        x: 706
+        y: 5102
         width: 71
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2086,12 +2089,12 @@ TextureImporter:
       name: Dante_55
       rect:
         serializedVersion: 2
-        x: 885
-        y: 5109
-        width: 74
-        height: 100
+        x: 870
+        y: 5096
+        width: 64
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2107,12 +2110,12 @@ TextureImporter:
       name: Dante_56
       rect:
         serializedVersion: 2
-        x: 1017
-        y: 5109
-        width: 104
-        height: 100
+        x: 1034
+        y: 5115
+        width: 93
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2128,12 +2131,12 @@ TextureImporter:
       name: Dante_57
       rect:
         serializedVersion: 2
-        x: 1164
-        y: 5109
-        width: 122
-        height: 100
+        x: 1186
+        y: 5108
+        width: 128
+        height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2149,12 +2152,12 @@ TextureImporter:
       name: Dante_58
       rect:
         serializedVersion: 2
-        x: 1368
-        y: 5109
-        width: 79
-        height: 148
+        x: 1359
+        y: 5118
+        width: 138
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2170,12 +2173,12 @@ TextureImporter:
       name: Dante_59
       rect:
         serializedVersion: 2
-        x: 73
-        y: 4955
-        width: 73
+        x: 50
+        y: 4954
+        width: 72
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2191,12 +2194,12 @@ TextureImporter:
       name: Dante_60
       rect:
         serializedVersion: 2
-        x: 236
-        y: 4955
-        width: 71
-        height: 103
+        x: 196
+        y: 4954
+        width: 89
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2212,12 +2215,12 @@ TextureImporter:
       name: Dante_61
       rect:
         serializedVersion: 2
-        x: 397
-        y: 4955
-        width: 72
-        height: 100
+        x: 378
+        y: 4954
+        width: 71
+        height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2233,12 +2236,12 @@ TextureImporter:
       name: Dante_62
       rect:
         serializedVersion: 2
-        x: 538
-        y: 4955
-        width: 96
-        height: 100
+        x: 542
+        y: 4954
+        width: 100
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2254,12 +2257,12 @@ TextureImporter:
       name: Dante_63
       rect:
         serializedVersion: 2
-        x: 676
-        y: 4955
+        x: 703
+        y: 4954
         width: 122
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2275,12 +2278,12 @@ TextureImporter:
       name: Dante_64
       rect:
         serializedVersion: 2
-        x: 856
-        y: 4955
-        width: 103
-        height: 106
+        x: 867
+        y: 4954
+        width: 93
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2296,12 +2299,12 @@ TextureImporter:
       name: Dante_65
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 4955
-        width: 67
-        height: 135
+        x: 1031
+        y: 4954
+        width: 74
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2317,12 +2320,12 @@ TextureImporter:
       name: Dante_66
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 4955
-        width: 86
-        height: 112
+        x: 1192
+        y: 4954
+        width: 71
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2338,12 +2341,12 @@ TextureImporter:
       name: Dante_67
       rect:
         serializedVersion: 2
-        x: 1377
-        y: 4955
-        width: 73
+        x: 1356
+        y: 4954
+        width: 71
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2359,12 +2362,12 @@ TextureImporter:
       name: Dante_68
       rect:
         serializedVersion: 2
-        x: 73
-        y: 4801
-        width: 83
+        x: 50
+        y: 4800
+        width: 96
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2380,12 +2383,12 @@ TextureImporter:
       name: Dante_69
       rect:
         serializedVersion: 2
-        x: 233
-        y: 4801
-        width: 74
+        x: 217
+        y: 4800
+        width: 71
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2401,12 +2404,12 @@ TextureImporter:
       name: Dante_70
       rect:
         serializedVersion: 2
-        x: 365
-        y: 4801
-        width: 106
-        height: 99
+        x: 378
+        y: 4800
+        width: 71
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2422,12 +2425,12 @@ TextureImporter:
       name: Dante_71
       rect:
         serializedVersion: 2
-        x: 512
-        y: 4801
-        width: 119
-        height: 99
+        x: 539
+        y: 4800
+        width: 72
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2443,12 +2446,12 @@ TextureImporter:
       name: Dante_72
       rect:
         serializedVersion: 2
-        x: 716
-        y: 4801
-        width: 79
-        height: 147
+        x: 706
+        y: 4800
+        width: 77
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2464,12 +2467,12 @@ TextureImporter:
       name: Dante_73
       rect:
         serializedVersion: 2
-        x: 888
-        y: 4801
-        width: 71
-        height: 104
+        x: 867
+        y: 4800
+        width: 122
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2485,12 +2488,12 @@ TextureImporter:
       name: Dante_74
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 4801
-        width: 71
-        height: 102
+        x: 1028
+        y: 4800
+        width: 106
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2506,12 +2509,12 @@ TextureImporter:
       name: Dante_75
       rect:
         serializedVersion: 2
-        x: 1213
-        y: 4801
-        width: 70
+        x: 1192
+        y: 4800
+        width: 74
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2527,12 +2530,12 @@ TextureImporter:
       name: Dante_76
       rect:
         serializedVersion: 2
-        x: 1354
-        y: 4801
-        width: 96
+        x: 1343
+        y: 4800
+        width: 84
         height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2548,12 +2551,12 @@ TextureImporter:
       name: Dante_77
       rect:
         serializedVersion: 2
-        x: 24
+        x: 60
         y: 4646
-        width: 119
-        height: 100
+        width: 83
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2569,12 +2572,12 @@ TextureImporter:
       name: Dante_78
       rect:
         serializedVersion: 2
-        x: 204
+        x: 217
         y: 4646
-        width: 103
-        height: 106
+        width: 87
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2590,12 +2593,12 @@ TextureImporter:
       name: Dante_79
       rect:
         serializedVersion: 2
-        x: 400
+        x: 378
         y: 4646
-        width: 71
-        height: 135
+        width: 74
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2611,12 +2614,12 @@ TextureImporter:
       name: Dante_80
       rect:
         serializedVersion: 2
-        x: 564
+        x: 529
         y: 4646
-        width: 86
-        height: 113
+        width: 83
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2632,12 +2635,12 @@ TextureImporter:
       name: Dante_81
       rect:
         serializedVersion: 2
-        x: 725
+        x: 703
         y: 4646
-        width: 73
-        height: 106
+        width: 71
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2653,12 +2656,12 @@ TextureImporter:
       name: Dante_82
       rect:
         serializedVersion: 2
-        x: 888
+        x: 848
         y: 4646
-        width: 84
-        height: 100
+        width: 90
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2674,12 +2677,12 @@ TextureImporter:
       name: Dante_83
       rect:
         serializedVersion: 2
-        x: 1049
+        x: 1028
         y: 4646
-        width: 74
-        height: 100
+        width: 73
+        height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2695,12 +2698,12 @@ TextureImporter:
       name: Dante_84
       rect:
         serializedVersion: 2
-        x: 1196
+        x: 1195
         y: 4646
-        width: 87
-        height: 126
+        width: 100
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2716,12 +2719,12 @@ TextureImporter:
       name: Dante_85
       rect:
         serializedVersion: 2
-        x: 1357
+        x: 1356
         y: 4646
-        width: 84
-        height: 126
+        width: 119
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2737,12 +2740,12 @@ TextureImporter:
       name: Dante_86
       rect:
         serializedVersion: 2
-        x: 53
-        y: 4486
-        width: 80
-        height: 144
+        x: 61
+        y: 4485
+        width: 121
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2758,12 +2761,12 @@ TextureImporter:
       name: Dante_87
       rect:
         serializedVersion: 2
-        x: 169
-        y: 4486
-        width: 128
-        height: 109
+        x: 224
+        y: 4485
+        width: 99
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2779,12 +2782,12 @@ TextureImporter:
       name: Dante_88
       rect:
         serializedVersion: 2
-        x: 332
-        y: 4486
-        width: 139
-        height: 109
+        x: 388
+        y: 4485
+        width: 99
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2800,12 +2803,12 @@ TextureImporter:
       name: Dante_89
       rect:
         serializedVersion: 2
-        x: 554
-        y: 4486
-        width: 80
+        x: 545
+        y: 4485
+        width: 77
         height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2821,12 +2824,12 @@ TextureImporter:
       name: Dante_90
       rect:
         serializedVersion: 2
-        x: 715
-        y: 4486
-        width: 80
+        x: 706
+        y: 4485
+        width: 77
         height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2842,12 +2845,12 @@ TextureImporter:
       name: Dante_91
       rect:
         serializedVersion: 2
-        x: 879
-        y: 4486
-        width: 76
+        x: 867
+        y: 4485
+        width: 80
         height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2863,12 +2866,12 @@ TextureImporter:
       name: Dante_92
       rect:
         serializedVersion: 2
-        x: 1013
-        y: 4486
-        width: 100
-        height: 122
+        x: 1028
+        y: 4485
+        width: 141
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2884,12 +2887,12 @@ TextureImporter:
       name: Dante_93
       rect:
         serializedVersion: 2
-        x: 1177
-        y: 4486
-        width: 100
-        height: 122
+        x: 1202
+        y: 4485
+        width: 128
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2905,12 +2908,12 @@ TextureImporter:
       name: Dante_94
       rect:
         serializedVersion: 2
-        x: 1317
-        y: 4486
-        width: 120
-        height: 109
+        x: 1366
+        y: 4485
+        width: 83
+        height: 145
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2926,12 +2929,12 @@ TextureImporter:
       name: Dante_95
       rect:
         serializedVersion: 2
-        x: 34
-        y: 4187
-        width: 141
-        height: 254
+        x: 1037
+        y: 4327
+        width: 65
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2947,12 +2950,12 @@ TextureImporter:
       name: Dante_96
       rect:
         serializedVersion: 2
-        x: 198
+        x: 1202
         y: 4331
         width: 99
         height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2968,12 +2971,12 @@ TextureImporter:
       name: Dante_97
       rect:
         serializedVersion: 2
-        x: 397
-        y: 4328
-        width: 64
-        height: 109
+        x: 1324
+        y: 4186
+        width: 141
+        height: 254
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2989,12 +2992,12 @@ TextureImporter:
       name: Dante_98
       rect:
         serializedVersion: 2
-        x: 317
-        y: 4190
-        width: 137
-        height: 125
+        x: 185
+        y: 4183
+        width: 64
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3010,12 +3013,12 @@ TextureImporter:
       name: Dante_99
       rect:
         serializedVersion: 2
-        x: 548
-        y: 4197
-        width: 144
-        height: 96
+        x: 404
+        y: 4196
+        width: 133
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3031,12 +3034,12 @@ TextureImporter:
       name: Dante_100
       rect:
         serializedVersion: 2
-        x: 785
-        y: 4197
+        x: 574
+        y: 4196
         width: 142
         height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3052,12 +3055,12 @@ TextureImporter:
       name: Dante_101
       rect:
         serializedVersion: 2
-        x: 962
+        x: 806
         y: 4196
-        width: 135
-        height: 90
+        width: 145
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3073,12 +3076,12 @@ TextureImporter:
       name: Dante_102
       rect:
         serializedVersion: 2
-        x: 1251
-        y: 4184
-        width: 64
-        height: 122
+        x: 1047
+        y: 4189
+        width: 135
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3094,12 +3097,12 @@ TextureImporter:
       name: Dante_103
       rect:
         serializedVersion: 2
-        x: 89
-        y: 4033
-        width: 73
-        height: 118
+        x: 183
+        y: 4032
+        width: 82
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3115,12 +3118,12 @@ TextureImporter:
       name: Dante_104
       rect:
         serializedVersion: 2
-        x: 329
-        y: 4031
-        width: 64
-        height: 111
+        x: 414
+        y: 4029
+        width: 78
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3136,12 +3139,12 @@ TextureImporter:
       name: Dante_105
       rect:
         serializedVersion: 2
-        x: 557
-        y: 4029
-        width: 68
-        height: 109
+        x: 645
+        y: 4027
+        width: 64
+        height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3157,12 +3160,12 @@ TextureImporter:
       name: Dante_106
       rect:
         serializedVersion: 2
-        x: 792
+        x: 873
         y: 4029
-        width: 64
+        width: 71
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3178,12 +3181,12 @@ TextureImporter:
       name: Dante_107
       rect:
         serializedVersion: 2
-        x: 1007
+        x: 1108
         y: 4029
-        width: 77
-        height: 109
+        width: 64
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3199,12 +3202,12 @@ TextureImporter:
       name: Dante_108
       rect:
         serializedVersion: 2
-        x: 1235
+        x: 1337
         y: 4032
-        width: 82
-        height: 109
+        width: 73
+        height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3220,12 +3223,12 @@ TextureImporter:
       name: Dante_109
       rect:
         serializedVersion: 2
-        x: 95
-        y: 3882
-        width: 74
+        x: 185
+        y: 3878
+        width: 58
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3241,12 +3244,12 @@ TextureImporter:
       name: Dante_110
       rect:
         serializedVersion: 2
-        x: 329
-        y: 3882
-        width: 68
+        x: 414
+        y: 3881
+        width: 64
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3262,12 +3265,12 @@ TextureImporter:
       name: Dante_111
       rect:
         serializedVersion: 2
-        x: 559
-        y: 3882
-        width: 66
+        x: 645
+        y: 3881
+        width: 64
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3283,12 +3286,12 @@ TextureImporter:
       name: Dante_112
       rect:
         serializedVersion: 2
-        x: 789
-        y: 3882
-        width: 67
+        x: 877
+        y: 3881
+        width: 64
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3304,12 +3307,12 @@ TextureImporter:
       name: Dante_113
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 3882
-        width: 67
+        x: 1102
+        y: 3881
+        width: 70
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3325,12 +3328,12 @@ TextureImporter:
       name: Dante_114
       rect:
         serializedVersion: 2
-        x: 1258
+        x: 1330
         y: 3881
-        width: 57
+        width: 77
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3346,12 +3349,12 @@ TextureImporter:
       name: Dante_115
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3602
-        width: 178
+        x: 143
+        y: 3749
+        width: 203
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3367,12 +3370,12 @@ TextureImporter:
       name: Dante_116
       rect:
         serializedVersion: 2
-        x: 47
-        y: 3740
-        width: 128
-        height: 96
+        x: 397
+        y: 3749
+        width: 180
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3388,12 +3391,12 @@ TextureImporter:
       name: Dante_117
       rect:
         serializedVersion: 2
-        x: 230
-        y: 3602
-        width: 176
-        height: 77
+        x: 627
+        y: 3749
+        width: 140
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3409,12 +3412,12 @@ TextureImporter:
       name: Dante_118
       rect:
         serializedVersion: 2
-        x: 300
-        y: 3743
-        width: 112
-        height: 87
+        x: 845
+        y: 3749
+        width: 128
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3430,12 +3433,12 @@ TextureImporter:
       name: Dante_119
       rect:
         serializedVersion: 2
-        x: 461
-        y: 3602
-        width: 173
-        height: 77
+        x: 1089
+        y: 3740
+        width: 112
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3451,12 +3454,12 @@ TextureImporter:
       name: Dante_120
       rect:
         serializedVersion: 2
-        x: 528
-        y: 3750
-        width: 126
-        height: 80
+        x: 1324
+        y: 3739
+        width: 128
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3472,12 +3475,12 @@ TextureImporter:
       name: Dante_121
       rect:
         serializedVersion: 2
-        x: 692
-        y: 3602
-        width: 170
-        height: 77
+        x: 182
+        y: 3592
+        width: 77
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3493,12 +3496,12 @@ TextureImporter:
       name: Dante_122
       rect:
         serializedVersion: 2
-        x: 734
-        y: 3750
-        width: 138
-        height: 83
+        x: 401
+        y: 3592
+        width: 128
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3514,12 +3517,12 @@ TextureImporter:
       name: Dante_123
       rect:
         serializedVersion: 2
-        x: 923
-        y: 3750
-        width: 180
-        height: 80
+        x: 639
+        y: 3601
+        width: 170
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3535,12 +3538,12 @@ TextureImporter:
       name: Dante_124
       rect:
         serializedVersion: 2
-        x: 972
-        y: 3592
-        width: 128
-        height: 96
+        x: 867
+        y: 3601
+        width: 174
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3556,12 +3559,12 @@ TextureImporter:
       name: Dante_125
       rect:
         serializedVersion: 2
-        x: 1153
-        y: 3653
-        width: 347
-        height: 174
+        x: 1095
+        y: 3601
+        width: 177
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3577,12 +3580,12 @@ TextureImporter:
       name: Dante_126
       rect:
         serializedVersion: 2
-        x: 1241
-        y: 3592
-        width: 78
-        height: 96
+        x: 1324
+        y: 3601
+        width: 175
+        height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3598,12 +3601,12 @@ TextureImporter:
       name: Dante_127
       rect:
         serializedVersion: 2
-        x: 95
-        y: 3448
-        width: 74
-        height: 96
+        x: 1105
+        y: 3431
+        width: 64
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3619,12 +3622,12 @@ TextureImporter:
       name: Dante_128
       rect:
         serializedVersion: 2
-        x: 329
-        y: 3431
-        width: 64
-        height: 113
+        x: 1333
+        y: 3447
+        width: 71
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3640,12 +3643,12 @@ TextureImporter:
       name: Dante_129
       rect:
         serializedVersion: 2
-        x: 43
-        y: 3267
+        x: 211
+        y: 3257
         width: 93
-        height: 139
+        height: 174
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3661,12 +3664,12 @@ TextureImporter:
       name: Dante_130
       rect:
         serializedVersion: 2
-        x: 239
-        y: 3267
-        width: 135
-        height: 126
+        x: 433
+        y: 3257
+        width: 96
+        height: 177
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3682,12 +3685,12 @@ TextureImporter:
       name: Dante_131
       rect:
         serializedVersion: 2
-        x: 429
-        y: 3277
-        width: 144
-        height: 96
+        x: 603
+        y: 3274
+        width: 135
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3703,12 +3706,12 @@ TextureImporter:
       name: Dante_132
       rect:
         serializedVersion: 2
-        x: 625
+        x: 734
         y: 3277
-        width: 141
+        width: 143
         height: 77
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3724,12 +3727,12 @@ TextureImporter:
       name: Dante_133
       rect:
         serializedVersion: 2
-        x: 763
+        x: 928
         y: 3277
-        width: 132
-        height: 87
+        width: 143
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3745,12 +3748,12 @@ TextureImporter:
       name: Dante_134
       rect:
         serializedVersion: 2
-        x: 972
-        y: 3258
-        width: 96
-        height: 177
+        x: 1125
+        y: 3267
+        width: 138
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3766,12 +3769,12 @@ TextureImporter:
       name: Dante_135
       rect:
         serializedVersion: 2
-        x: 1196
-        y: 3258
-        width: 94
-        height: 176
+        x: 1366
+        y: 3264
+        width: 90
+        height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3787,12 +3790,12 @@ TextureImporter:
       name: Dante_136
       rect:
         serializedVersion: 2
-        x: 57
-        y: 3078
-        width: 112
-        height: 122
+        x: 227
+        y: 3084
+        width: 91
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3808,12 +3811,12 @@ TextureImporter:
       name: Dante_137
       rect:
         serializedVersion: 2
-        x: 243
-        y: 3097
-        width: 80
-        height: 87
+        x: 417
+        y: 3084
+        width: 95
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3829,12 +3832,12 @@ TextureImporter:
       name: Dante_138
       rect:
         serializedVersion: 2
-        x: 438
-        y: 3102
-        width: 90
-        height: 79
+        x: 603
+        y: 3087
+        width: 97
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3850,12 +3853,12 @@ TextureImporter:
       name: Dante_139
       rect:
         serializedVersion: 2
-        x: 628
-        y: 3087
-        width: 83
-        height: 110
+        x: 790
+        y: 3084
+        width: 80
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3871,12 +3874,12 @@ TextureImporter:
       name: Dante_140
       rect:
         serializedVersion: 2
-        x: 801
-        y: 3088
-        width: 97
-        height: 105
+        x: 970
+        y: 3100
+        width: 93
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3892,12 +3895,12 @@ TextureImporter:
       name: Dante_141
       rect:
         serializedVersion: 2
-        x: 988
-        y: 3084
-        width: 96
-        height: 109
+        x: 1179
+        y: 3094
+        width: 80
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3913,12 +3916,12 @@ TextureImporter:
       name: Dante_142
       rect:
         serializedVersion: 2
-        x: 1181
-        y: 3084
-        width: 93
-        height: 109
+        x: 1331
+        y: 3077
+        width: 112
+        height: 122
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3934,12 +3937,12 @@ TextureImporter:
       name: Dante_143
       rect:
         serializedVersion: 2
-        x: 34
-        y: 2908
-        width: 93
+        x: 803
+        y: 2904
+        width: 67
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3955,12 +3958,12 @@ TextureImporter:
       name: Dante_144
       rect:
         serializedVersion: 2
-        x: 249
-        y: 2908
-        width: 72
-        height: 115
+        x: 983
+        y: 2920
+        width: 86
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3976,12 +3979,12 @@ TextureImporter:
       name: Dante_145
       rect:
         serializedVersion: 2
-        x: 432
-        y: 2920
-        width: 84
-        height: 87
+        x: 1179
+        y: 2907
+        width: 71
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3997,12 +4000,12 @@ TextureImporter:
       name: Dante_146
       rect:
         serializedVersion: 2
-        x: 631
-        y: 2904
-        width: 64
+        x: 1372
+        y: 2907
+        width: 93
         height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4018,12 +4021,12 @@ TextureImporter:
       name: Dante_147
       rect:
         serializedVersion: 2
-        x: 85
-        y: 2766
-        width: 96
-        height: 138
+        x: 249
+        y: 2762
+        width: 110
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4039,12 +4042,12 @@ TextureImporter:
       name: Dante_148
       rect:
         serializedVersion: 2
-        x: 291
-        y: 2766
-        width: 141
-        height: 100
+        x: 468
+        y: 2762
+        width: 103
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4060,12 +4063,12 @@ TextureImporter:
       name: Dante_149
       rect:
         serializedVersion: 2
-        x: 512
-        y: 2766
-        width: 100
-        height: 100
+        x: 690
+        y: 2762
+        width: 122
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4081,12 +4084,12 @@ TextureImporter:
       name: Dante_150
       rect:
         serializedVersion: 2
-        x: 689
+        x: 889
         y: 2763
-        width: 122
-        height: 103
+        width: 100
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4102,12 +4105,12 @@ TextureImporter:
       name: Dante_151
       rect:
         serializedVersion: 2
-        x: 927
+        x: 1070
         y: 2763
-        width: 106
-        height: 104
+        width: 141
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4123,12 +4126,12 @@ TextureImporter:
       name: Dante_152
       rect:
         serializedVersion: 2
-        x: 1142
+        x: 1317
         y: 2763
-        width: 109
-        height: 104
+        width: 100
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4144,12 +4147,12 @@ TextureImporter:
       name: Dante_153
       rect:
         serializedVersion: 2
-        x: 72
+        x: 40
         y: 2618
-        width: 103
-        height: 103
+        width: 112
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4165,12 +4168,12 @@ TextureImporter:
       name: Dante_154
       rect:
         serializedVersion: 2
-        x: 287
+        x: 256
         y: 2618
-        width: 97
-        height: 103
+        width: 112
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4186,12 +4189,12 @@ TextureImporter:
       name: Dante_155
       rect:
         serializedVersion: 2
-        x: 516
+        x: 475
         y: 2618
-        width: 96
-        height: 142
+        width: 118
+        height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4207,12 +4210,12 @@ TextureImporter:
       name: Dante_156
       rect:
         serializedVersion: 2
-        x: 712
-        y: 2621
+        x: 690
+        y: 2618
         width: 99
-        height: 126
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4228,12 +4231,12 @@ TextureImporter:
       name: Dante_157
       rect:
         serializedVersion: 2
-        x: 907
-        y: 2621
-        width: 116
-        height: 100
+        x: 889
+        y: 2615
+        width: 97
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4249,12 +4252,12 @@ TextureImporter:
       name: Dante_158
       rect:
         serializedVersion: 2
-        x: 1130
-        y: 2621
-        width: 115
-        height: 93
+        x: 1115
+        y: 2615
+        width: 99
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4270,12 +4273,12 @@ TextureImporter:
       name: Dante_159
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 2621
-        width: 112
-        height: 93
+        x: 1324
+        y: 2615
+        width: 103
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4291,12 +4294,12 @@ TextureImporter:
       name: Dante_160
       rect:
         serializedVersion: 2
-        x: 47
-        y: 2480
-        width: 131
+        x: 40
+        y: 2473
+        width: 112
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4312,12 +4315,12 @@ TextureImporter:
       name: Dante_161
       rect:
         serializedVersion: 2
-        x: 307
-        y: 2480
-        width: 89
-        height: 93
+        x: 256
+        y: 2476
+        width: 128
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4333,12 +4336,12 @@ TextureImporter:
       name: Dante_162
       rect:
         serializedVersion: 2
-        x: 522
+        x: 468
         y: 2480
-        width: 83
+        width: 129
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4354,12 +4357,12 @@ TextureImporter:
       name: Dante_163
       rect:
         serializedVersion: 2
-        x: 657
+        x: 680
         y: 2480
-        width: 163
+        width: 164
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4375,12 +4378,12 @@ TextureImporter:
       name: Dante_164
       rect:
         serializedVersion: 2
-        x: 904
+        x: 896
         y: 2480
-        width: 129
+        width: 83
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4396,12 +4399,12 @@ TextureImporter:
       name: Dante_165
       rect:
         serializedVersion: 2
-        x: 1116
-        y: 2477
-        width: 129
-        height: 96
+        x: 1105
+        y: 2480
+        width: 87
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4417,12 +4420,12 @@ TextureImporter:
       name: Dante_166
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 2474
-        width: 112
+        x: 1324
+        y: 2480
+        width: 128
         height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4438,12 +4441,12 @@ TextureImporter:
       name: Dante_167
       rect:
         serializedVersion: 2
-        x: 66
-        y: 2329
-        width: 112
-        height: 93
+        x: 50
+        y: 2332
+        width: 167
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4459,12 +4462,12 @@ TextureImporter:
       name: Dante_168
       rect:
         serializedVersion: 2
-        x: 236
-        y: 2335
-        width: 161
-        height: 93
+        x: 262
+        y: 2332
+        width: 167
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4480,12 +4483,12 @@ TextureImporter:
       name: Dante_169
       rect:
         serializedVersion: 2
-        x: 429
+        x: 478
         y: 2332
         width: 167
-        height: 98
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4501,12 +4504,12 @@ TextureImporter:
       name: Dante_170
       rect:
         serializedVersion: 2
-        x: 641
+        x: 690
         y: 2332
         width: 167
-        height: 99
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4522,12 +4525,12 @@ TextureImporter:
       name: Dante_171
       rect:
         serializedVersion: 2
-        x: 856
+        x: 906
         y: 2332
         width: 167
-        height: 99
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4543,12 +4546,12 @@ TextureImporter:
       name: Dante_172
       rect:
         serializedVersion: 2
-        x: 1069
-        y: 2332
-        width: 169
-        height: 98
+        x: 1105
+        y: 2335
+        width: 160
+        height: 93
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4564,12 +4567,12 @@ TextureImporter:
       name: Dante_173
       rect:
         serializedVersion: 2
-        x: 1283
-        y: 2332
-        width: 167
-        height: 99
+        x: 1321
+        y: 2327
+        width: 115
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4585,12 +4588,12 @@ TextureImporter:
       name: Dante_174
       rect:
         serializedVersion: 2
-        x: 21
-        y: 2187
-        width: 147
-        height: 116
+        x: 700
+        y: 2174
+        width: 64
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4606,12 +4609,12 @@ TextureImporter:
       name: Dante_175
       rect:
         serializedVersion: 2
-        x: 297
-        y: 2178
-        width: 77
-        height: 141
+        x: 909
+        y: 2174
+        width: 73
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4627,12 +4630,12 @@ TextureImporter:
       name: Dante_176
       rect:
         serializedVersion: 2
-        x: 519
-        y: 2175
-        width: 73
-        height: 112
+        x: 1126
+        y: 2177
+        width: 77
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4648,12 +4651,12 @@ TextureImporter:
       name: Dante_177
       rect:
         serializedVersion: 2
-        x: 737
-        y: 2175
-        width: 64
-        height: 112
+        x: 1333
+        y: 2187
+        width: 145
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4669,12 +4672,12 @@ TextureImporter:
       name: Dante_178
       rect:
         serializedVersion: 2
-        x: 21
-        y: 2065
-        width: 83
-        height: 111
+        x: 710
+        y: 2059
+        width: 67
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4690,12 +4693,12 @@ TextureImporter:
       name: Dante_179
       rect:
         serializedVersion: 2
-        x: 101
-        y: 2065
-        width: 193
-        height: 108
+        x: 799
+        y: 2075
+        width: 84
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4711,12 +4714,12 @@ TextureImporter:
       name: Dante_180
       rect:
         serializedVersion: 2
-        x: 301
+        x: 903
         y: 2065
-        width: 92
-        height: 106
+        width: 73
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4732,12 +4735,12 @@ TextureImporter:
       name: Dante_181
       rect:
         serializedVersion: 2
-        x: 400
+        x: 1005
         y: 2065
-        width: 93
+        width: 96
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4753,12 +4756,12 @@ TextureImporter:
       name: Dante_182
       rect:
         serializedVersion: 2
-        x: 525
+        x: 1105
         y: 2065
-        width: 71
-        height: 113
+        width: 93
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4774,12 +4777,12 @@ TextureImporter:
       name: Dante_183
       rect:
         serializedVersion: 2
-        x: 615
-        y: 2078
-        width: 84
-        height: 84
+        x: 1205
+        y: 2065
+        width: 193
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4795,12 +4798,12 @@ TextureImporter:
       name: Dante_184
       rect:
         serializedVersion: 2
-        x: 724
-        y: 2059
-        width: 65
-        height: 112
+        x: 1398
+        y: 2065
+        width: 80
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4816,12 +4819,12 @@ TextureImporter:
       name: Dante_185
       rect:
         serializedVersion: 2
-        x: 43
-        y: 1934
-        width: 65
+        x: 476
+        y: 1937
+        width: 72
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4837,12 +4840,12 @@ TextureImporter:
       name: Dante_186
       rect:
         serializedVersion: 2
-        x: 114
-        y: 1934
-        width: 109
+        x: 587
+        y: 1937
+        width: 77
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4858,12 +4861,12 @@ TextureImporter:
       name: Dante_187
       rect:
         serializedVersion: 2
-        x: 268
+        x: 700
         y: 1937
-        width: 69
-        height: 109
+        width: 77
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4879,12 +4882,12 @@ TextureImporter:
       name: Dante_188
       rect:
         serializedVersion: 2
-        x: 358
+        x: 822
         y: 1937
-        width: 90
-        height: 125
+        width: 67
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4900,12 +4903,12 @@ TextureImporter:
       name: Dante_189
       rect:
         serializedVersion: 2
-        x: 496
-        y: 1940
-        width: 71
-        height: 122
+        x: 931
+        y: 1937
+        width: 74
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4921,12 +4924,12 @@ TextureImporter:
       name: Dante_190
       rect:
         serializedVersion: 2
-        x: 609
-        y: 1940
-        width: 67
-        height: 109
+        x: 1052
+        y: 1936
+        width: 90
+        height: 126
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4942,12 +4945,12 @@ TextureImporter:
       name: Dante_191
       rect:
         serializedVersion: 2
-        x: 724
-        y: 1940
-        width: 77
-        height: 109
+        x: 1163
+        y: 1936
+        width: 70
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4963,12 +4966,12 @@ TextureImporter:
       name: Dante_192
       rect:
         serializedVersion: 2
-        x: 837
-        y: 1940
-        width: 76
-        height: 109
+        x: 1279
+        y: 1933
+        width: 109
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4984,12 +4987,12 @@ TextureImporter:
       name: Dante_193
       rect:
         serializedVersion: 2
-        x: 952
-        y: 1940
-        width: 71
-        height: 109
+        x: 1391
+        y: 1933
+        width: 65
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5005,12 +5008,12 @@ TextureImporter:
       name: Dante_194
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1760
-        width: 64
-        height: 109
+        x: 121
+        y: 1769
+        width: 109
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5026,12 +5029,12 @@ TextureImporter:
       name: Dante_195
       rect:
         serializedVersion: 2
-        x: 265
-        y: 1760
-        width: 71
+        x: 346
+        y: 1750
+        width: 90
         height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5047,12 +5050,12 @@ TextureImporter:
       name: Dante_196
       rect:
         serializedVersion: 2
-        x: 464
-        y: 1770
-        width: 113
-        height: 112
+        x: 548
+        y: 1776
+        width: 148
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5068,12 +5071,12 @@ TextureImporter:
       name: Dante_197
       rect:
         serializedVersion: 2
-        x: 663
-        y: 1773
-        width: 93
-        height: 154
+        x: 745
+        y: 1772
+        width: 90
+        height: 155
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5089,12 +5092,12 @@ TextureImporter:
       name: Dante_198
       rect:
         serializedVersion: 2
-        x: 802
-        y: 1776
-        width: 150
-        height: 116
+        x: 922
+        y: 1769
+        width: 112
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5110,12 +5113,12 @@ TextureImporter:
       name: Dante_199
       rect:
         serializedVersion: 2
-        x: 1065
-        y: 1750
-        width: 89
-        height: 113
+        x: 1166
+        y: 1760
+        width: 68
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5131,12 +5134,12 @@ TextureImporter:
       name: Dante_200
       rect:
         serializedVersion: 2
-        x: 1270
-        y: 1770
-        width: 110
-        height: 89
+        x: 1366
+        y: 1757
+        width: 67
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5152,12 +5155,12 @@ TextureImporter:
       name: Dante_201
       rect:
         serializedVersion: 2
-        x: 58
+        x: 156
         y: 1586
-        width: 82
-        height: 103
+        width: 96
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5173,12 +5176,12 @@ TextureImporter:
       name: Dante_202
       rect:
         serializedVersion: 2
-        x: 259
+        x: 356
         y: 1586
         width: 80
-        height: 100
+        height: 135
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5194,12 +5197,12 @@ TextureImporter:
       name: Dante_203
       rect:
         serializedVersion: 2
-        x: 461
+        x: 539
         y: 1586
-        width: 93
-        height: 100
+        width: 99
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5215,12 +5218,12 @@ TextureImporter:
       name: Dante_204
       rect:
         serializedVersion: 2
-        x: 660
+        x: 719
         y: 1586
         width: 119
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5236,12 +5239,12 @@ TextureImporter:
       name: Dante_205
       rect:
         serializedVersion: 2
-        x: 862
+        x: 944
         y: 1586
-        width: 100
-        height: 106
+        width: 97
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5257,12 +5260,12 @@ TextureImporter:
       name: Dante_206
       rect:
         serializedVersion: 2
-        x: 1062
+        x: 1160
         y: 1586
-        width: 83
-        height: 135
+        width: 80
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5278,12 +5281,12 @@ TextureImporter:
       name: Dante_207
       rect:
         serializedVersion: 2
-        x: 1245
+        x: 1362
         y: 1586
-        width: 99
-        height: 113
+        width: 81
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5299,12 +5302,12 @@ TextureImporter:
       name: Dante_208
       rect:
         serializedVersion: 2
-        x: 58
+        x: 156
         y: 1403
-        width: 82
-        height: 106
+        width: 80
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5320,12 +5323,12 @@ TextureImporter:
       name: Dante_209
       rect:
         serializedVersion: 2
-        x: 249
+        x: 356
         y: 1403
-        width: 90
-        height: 100
+        width: 80
+        height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5341,12 +5344,12 @@ TextureImporter:
       name: Dante_210
       rect:
         serializedVersion: 2
-        x: 461
+        x: 516
         y: 1403
-        width: 80
-        height: 100
+        width: 122
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5362,12 +5365,12 @@ TextureImporter:
       name: Dante_211
       rect:
         serializedVersion: 2
-        x: 660
+        x: 735
         y: 1403
-        width: 106
-        height: 100
+        width: 103
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5383,12 +5386,12 @@ TextureImporter:
       name: Dante_212
       rect:
         serializedVersion: 2
-        x: 862
+        x: 960
         y: 1403
-        width: 122
-        height: 100
+        width: 81
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5404,12 +5407,12 @@ TextureImporter:
       name: Dante_213
       rect:
         serializedVersion: 2
-        x: 1062
+        x: 1160
         y: 1403
-        width: 83
-        height: 148
+        width: 93
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5425,12 +5428,12 @@ TextureImporter:
       name: Dante_214
       rect:
         serializedVersion: 2
-        x: 1264
+        x: 1362
         y: 1403
-        width: 80
-        height: 106
+        width: 81
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5446,12 +5449,12 @@ TextureImporter:
       name: Dante_215
       rect:
         serializedVersion: 2
-        x: 53
-        y: 1223
-        width: 83
-        height: 100
+        x: 166
+        y: 1210
+        width: 89
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5467,12 +5470,12 @@ TextureImporter:
       name: Dante_216
       rect:
         serializedVersion: 2
-        x: 255
-        y: 1213
-        width: 81
-        height: 110
+        x: 365
+        y: 1207
+        width: 90
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5488,12 +5491,12 @@ TextureImporter:
       name: Dante_217
       rect:
         serializedVersion: 2
-        x: 445
-        y: 1213
+        x: 565
+        y: 1207
         width: 90
-        height: 115
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5509,12 +5512,12 @@ TextureImporter:
       name: Dante_218
       rect:
         serializedVersion: 2
-        x: 641
+        x: 767
         y: 1210
         width: 93
-        height: 113
+        height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5530,12 +5533,12 @@ TextureImporter:
       name: Dante_219
       rect:
         serializedVersion: 2
-        x: 846
-        y: 1210
+        x: 963
+        y: 1213
         width: 90
-        height: 109
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5551,12 +5554,12 @@ TextureImporter:
       name: Dante_220
       rect:
         serializedVersion: 2
-        x: 1046
-        y: 1207
-        width: 89
-        height: 112
+        x: 1166
+        y: 1213
+        width: 77
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5572,12 +5575,12 @@ TextureImporter:
       name: Dante_221
       rect:
         serializedVersion: 2
-        x: 1245
-        y: 1210
-        width: 90
-        height: 109
+        x: 1362
+        y: 1223
+        width: 84
+        height: 99
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5593,12 +5596,12 @@ TextureImporter:
       name: Dante_222
       rect:
         serializedVersion: 2
-        x: 40
-        y: 1027
-        width: 90
-        height: 111
+        x: 92
+        y: 1046
+        width: 144
+        height: 97
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5614,12 +5617,12 @@ TextureImporter:
       name: Dante_223
       rect:
         serializedVersion: 2
-        x: 240
-        y: 1030
-        width: 89
-        height: 109
+        x: 301
+        y: 1037
+        width: 138
+        height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5635,12 +5638,12 @@ TextureImporter:
       name: Dante_224
       rect:
         serializedVersion: 2
-        x: 445
-        y: 1030
-        width: 88
-        height: 109
+        x: 552
+        y: 1036
+        width: 90
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5656,12 +5659,12 @@ TextureImporter:
       name: Dante_225
       rect:
         serializedVersion: 2
-        x: 644
-        y: 1027
-        width: 87
-        height: 111
+        x: 767
+        y: 1024
+        width: 90
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5677,12 +5680,12 @@ TextureImporter:
       name: Dante_226
       rect:
         serializedVersion: 2
-        x: 856
-        y: 1037
-        width: 93
-        height: 141
+        x: 967
+        y: 1030
+        width: 90
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5698,12 +5701,12 @@ TextureImporter:
       name: Dante_227
       rect:
         serializedVersion: 2
-        x: 1062
-        y: 1037
-        width: 137
-        height: 128
+        x: 1169
+        y: 1030
+        width: 90
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5719,12 +5722,12 @@ TextureImporter:
       name: Dante_228
       rect:
         serializedVersion: 2
-        x: 1264
-        y: 1047
-        width: 144
-        height: 96
+        x: 1372
+        y: 1027
+        width: 87
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5740,12 +5743,12 @@ TextureImporter:
       name: Dante_229
       rect:
         serializedVersion: 2
-        x: 60
-        y: 866
-        width: 144
-        height: 77
+        x: 159
+        y: 847
+        width: 74
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5761,12 +5764,12 @@ TextureImporter:
       name: Dante_230
       rect:
         serializedVersion: 2
-        x: 210
-        y: 863
-        width: 132
-        height: 90
+        x: 359
+        y: 844
+        width: 70
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5782,12 +5785,12 @@ TextureImporter:
       name: Dante_231
       rect:
         serializedVersion: 2
-        x: 429
-        y: 850
-        width: 103
-        height: 174
+        x: 517
+        y: 847
+        width: 112
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5803,12 +5806,12 @@ TextureImporter:
       name: Dante_232
       rect:
         serializedVersion: 2
-        x: 663
+        x: 745
         y: 850
         width: 93
-        height: 171
+        height: 170
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5824,12 +5827,12 @@ TextureImporter:
       name: Dante_233
       rect:
         serializedVersion: 2
-        x: 872
-        y: 847
-        width: 109
-        height: 119
+        x: 970
+        y: 850
+        width: 101
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5845,12 +5848,12 @@ TextureImporter:
       name: Dante_234
       rect:
         serializedVersion: 2
-        x: 1070
-        y: 844
-        width: 72
-        height: 112
+        x: 1156
+        y: 863
+        width: 135
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5866,12 +5869,12 @@ TextureImporter:
       name: Dante_235
       rect:
         serializedVersion: 2
-        x: 1267
-        y: 847
-        width: 74
-        height: 109
+        x: 1296
+        y: 863
+        width: 143
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5887,12 +5890,12 @@ TextureImporter:
       name: Dante_236
       rect:
         serializedVersion: 2
-        x: 66
-        y: 677
-        width: 73
-        height: 86
+        x: 146
+        y: 670
+        width: 90
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5908,12 +5911,12 @@ TextureImporter:
       name: Dante_237
       rect:
         serializedVersion: 2
-        x: 275
-        y: 661
-        width: 64
-        height: 112
+        x: 349
+        y: 667
+        width: 80
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5929,12 +5932,12 @@ TextureImporter:
       name: Dante_238
       rect:
         serializedVersion: 2
-        x: 471
-        y: 667
-        width: 70
-        height: 112
+        x: 539
+        y: 683
+        width: 93
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5950,12 +5953,12 @@ TextureImporter:
       name: Dante_239
       rect:
         serializedVersion: 2
-        x: 663
+        x: 755
         y: 677
-        width: 81
-        height: 89
+        width: 83
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5971,12 +5974,12 @@ TextureImporter:
       name: Dante_240
       rect:
         serializedVersion: 2
-        x: 869
-        y: 683
-        width: 93
-        height: 80
+        x: 957
+        y: 664
+        width: 71
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5992,12 +5995,12 @@ TextureImporter:
       name: Dante_241
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 667
-        width: 80
-        height: 109
+        x: 1160
+        y: 660
+        width: 64
+        height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6013,12 +6016,12 @@ TextureImporter:
       name: Dante_242
       rect:
         serializedVersion: 2
-        x: 1264
-        y: 670
-        width: 90
-        height: 106
+        x: 1362
+        y: 677
+        width: 74
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6034,12 +6037,12 @@ TextureImporter:
       name: Dante_243
       rect:
         serializedVersion: 2
-        x: 63
-        y: 487
-        width: 80
-        height: 103
+        x: 159
+        y: 479
+        width: 84
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6055,12 +6058,12 @@ TextureImporter:
       name: Dante_244
       rect:
         serializedVersion: 2
-        x: 268
+        x: 349
         y: 484
-        width: 71
-        height: 106
+        width: 100
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6076,12 +6079,12 @@ TextureImporter:
       name: Dante_245
       rect:
         serializedVersion: 2
-        x: 461
-        y: 484
-        width: 90
+        x: 555
+        y: 490
+        width: 87
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6097,12 +6100,12 @@ TextureImporter:
       name: Dante_246
       rect:
         serializedVersion: 2
-        x: 670
-        y: 484
+        x: 758
+        y: 481
         width: 70
-        height: 106
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6118,12 +6121,12 @@ TextureImporter:
       name: Dante_247
       rect:
         serializedVersion: 2
-        x: 859
-        y: 490
-        width: 84
-        height: 106
+        x: 948
+        y: 484
+        width: 93
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6139,12 +6142,12 @@ TextureImporter:
       name: Dante_248
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 484
-        width: 99
-        height: 112
+        x: 1160
+        y: 481
+        width: 70
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6160,12 +6163,12 @@ TextureImporter:
       name: Dante_249
       rect:
         serializedVersion: 2
-        x: 1258
-        y: 481
-        width: 83
-        height: 109
+        x: 1356
+        y: 485
+        width: 80
+        height: 105
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6181,12 +6184,12 @@ TextureImporter:
       name: Dante_250
       rect:
         serializedVersion: 2
-        x: 53
+        x: 729
         y: 304
-        width: 106
+        width: 115
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6202,12 +6205,12 @@ TextureImporter:
       name: Dante_251
       rect:
         serializedVersion: 2
-        x: 255
+        x: 931
         y: 304
-        width: 119
+        width: 113
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6223,12 +6226,12 @@ TextureImporter:
       name: Dante_252
       rect:
         serializedVersion: 2
-        x: 455
+        x: 1124
         y: 304
-        width: 112
+        width: 122
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6244,12 +6247,12 @@ TextureImporter:
       name: Dante_253
       rect:
         serializedVersion: 2
-        x: 657
+        x: 1340
         y: 304
-        width: 115
+        width: 106
         height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6265,12 +6268,12 @@ TextureImporter:
       name: Dante_254
       rect:
         serializedVersion: 2
-        x: 18
-        y: 150
-        width: 64
-        height: 112
+        x: 63
+        y: 153
+        width: 93
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6286,12 +6289,12 @@ TextureImporter:
       name: Dante_255
       rect:
         serializedVersion: 2
-        x: 121
-        y: 156
-        width: 70
-        height: 112
+        x: 164
+        y: 153
+        width: 95
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6307,12 +6310,12 @@ TextureImporter:
       name: Dante_256
       rect:
         serializedVersion: 2
-        x: 214
-        y: 166
-        width: 83
-        height: 89
+        x: 269
+        y: 153
+        width: 93
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6328,12 +6331,12 @@ TextureImporter:
       name: Dante_257
       rect:
         serializedVersion: 2
-        x: 323
-        y: 172
-        width: 93
-        height: 80
+        x: 369
+        y: 153
+        width: 95
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6349,12 +6352,12 @@ TextureImporter:
       name: Dante_258
       rect:
         serializedVersion: 2
-        x: 426
+        x: 475
         y: 156
-        width: 83
-        height: 109
+        width: 93
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6370,12 +6373,12 @@ TextureImporter:
       name: Dante_259
       rect:
         serializedVersion: 2
-        x: 532
-        y: 150
-        width: 77
-        height: 109
+        x: 577
+        y: 156
+        width: 94
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6391,12 +6394,12 @@ TextureImporter:
       name: Dante_260
       rect:
         serializedVersion: 2
-        x: 628
+        x: 680
         y: 156
-        width: 87
-        height: 103
+        width: 94
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6412,12 +6415,12 @@ TextureImporter:
       name: Dante_261
       rect:
         serializedVersion: 2
-        x: 728
+        x: 787
         y: 156
-        width: 93
-        height: 103
+        width: 83
+        height: 101
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6433,12 +6436,12 @@ TextureImporter:
       name: Dante_262
       rect:
         serializedVersion: 2
-        x: 828
-        y: 156
-        width: 95
-        height: 103
+        x: 893
+        y: 149
+        width: 74
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6454,12 +6457,12 @@ TextureImporter:
       name: Dante_263
       rect:
         serializedVersion: 2
-        x: 931
+        x: 992
         y: 156
-        width: 95
-        height: 103
+        width: 81
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6475,12 +6478,12 @@ TextureImporter:
       name: Dante_264
       rect:
         serializedVersion: 2
-        x: 1036
-        y: 156
-        width: 95
-        height: 103
+        x: 1086
+        y: 172
+        width: 90
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6496,12 +6499,12 @@ TextureImporter:
       name: Dante_265
       rect:
         serializedVersion: 2
-        x: 1139
-        y: 156
-        width: 93
-        height: 103
+        x: 1205
+        y: 166
+        width: 80
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6517,12 +6520,12 @@ TextureImporter:
       name: Dante_266
       rect:
         serializedVersion: 2
-        x: 1241
-        y: 156
-        width: 94
-        height: 103
+        x: 1308
+        y: 153
+        width: 70
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6538,12 +6541,12 @@ TextureImporter:
       name: Dante_267
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 156
-        width: 93
-        height: 103
+        x: 1417
+        y: 149
+        width: 66
+        height: 110
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6559,12 +6562,12 @@ TextureImporter:
       name: Dante_268
       rect:
         serializedVersion: 2
-        x: 8
-        y: 11
-        width: 93
-        height: 106
+        x: 377
+        y: 5
+        width: 94
+        height: 140
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6580,12 +6583,12 @@ TextureImporter:
       name: Dante_269
       rect:
         serializedVersion: 2
-        x: 111
-        y: 11
-        width: 96
-        height: 106
+        x: 472
+        y: 5
+        width: 99
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6601,12 +6604,12 @@ TextureImporter:
       name: Dante_270
       rect:
         serializedVersion: 2
-        x: 210
-        y: 0
-        width: 100
-        height: 117
+        x: 577
+        y: 5
+        width: 94
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6622,12 +6625,12 @@ TextureImporter:
       name: Dante_271
       rect:
         serializedVersion: 2
-        x: 308
-        y: 0
-        width: 105
-        height: 140
+        x: 687
+        y: 11
+        width: 93
+        height: 109
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6643,12 +6646,12 @@ TextureImporter:
       name: Dante_272
       rect:
         serializedVersion: 2
-        x: 422
-        y: 14
-        width: 93
-        height: 113
+        x: 787
+        y: 0
+        width: 89
+        height: 114
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6664,12 +6667,12 @@ TextureImporter:
       name: Dante_273
       rect:
         serializedVersion: 2
-        x: 523
+        x: 883
         y: 11
-        width: 95
+        width: 93
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6685,12 +6688,12 @@ TextureImporter:
       name: Dante_274
       rect:
         serializedVersion: 2
-        x: 625
-        y: 0
-        width: 90
-        height: 114
+        x: 984
+        y: 11
+        width: 95
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6706,12 +6709,12 @@ TextureImporter:
       name: Dante_275
       rect:
         serializedVersion: 2
-        x: 721
-        y: 14
-        width: 93
-        height: 106
+        x: 1086
+        y: 0
+        width: 96
+        height: 137
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6727,12 +6730,12 @@ TextureImporter:
       name: Dante_276
       rect:
         serializedVersion: 2
-        x: 830
-        y: 8
-        width: 93
-        height: 109
+        x: 1183
+        y: 0
+        width: 105
+        height: 117
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6748,12 +6751,12 @@ TextureImporter:
       name: Dante_277
       rect:
         serializedVersion: 2
-        x: 928
-        y: 8
-        width: 98
-        height: 114
+        x: 1295
+        y: 11
+        width: 93
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6769,12 +6772,12 @@ TextureImporter:
       name: Dante_278
       rect:
         serializedVersion: 2
-        x: 1029
-        y: 6
-        width: 94
-        height: 140
+        x: 1398
+        y: 11
+        width: 95
+        height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

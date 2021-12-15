@@ -17,6 +17,10 @@ public class DashDecision : FSM.Decision
         {
             sPressed = true;
         }
+        else
+        {
+            sPressed = false;
+        }
         return sPressed;
     }
 }

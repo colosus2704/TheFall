@@ -13,6 +13,8 @@ namespace FSM
         private HealthSystem _healthSystem;
 
         private InputSystemKeyboard _inputSystemKeyboard;
+
+        private GroundDetector _groundDetector;
         internal int GetCurrentHealth()
         {
             return _healthSystem.GetHealth();
@@ -21,6 +23,10 @@ namespace FSM
         internal float GetInput()
         {
             return _inputSystemKeyboard.ver;
+        }
+        internal bool GetGround()
+        {
+            return _groundDetector.isGrounded;
         }
         public void SetAnimation(string animation, bool value)
         {
@@ -42,6 +48,7 @@ namespace FSM
             _animatorController = GetComponent<Animator>();
             _healthSystem = GetComponent<HealthSystem>();
             _inputSystemKeyboard = GetComponent<InputSystemKeyboard>();
+            _groundDetector = GetComponent<GroundDetector>();
         }
 
         public void Update() // Se ejecutan las acciones del estado actual.
@@ -50,6 +57,7 @@ namespace FSM
                 return;                      // estados tengan una referencia al
             currentState.UpdateState(this);  // controlador, para poder llamar a
                                              // sus métodos
+            Debug.Log(GetGround());
         }
 
         public void Transition(State nextState)
