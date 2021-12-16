@@ -57,7 +57,6 @@ namespace FSM
                 return;                      // estados tengan una referencia al
             currentState.UpdateState(this);  // controlador, para poder llamar a
                                              // sus métodos
-            Debug.Log(GetGround());
         }
 
         public void Transition(State nextState)
