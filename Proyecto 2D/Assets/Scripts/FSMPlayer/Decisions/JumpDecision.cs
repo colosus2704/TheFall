@@ -13,7 +13,7 @@ public class JumpDecision : FSM.Decision
     {
         float h = controller.GetInput();
         bool g = controller.GetGround();
-        if (h > 0 && g)
+        if (h >= 0.1 && g)
         {
             wPressed = true;
         }
