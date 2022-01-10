@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class ButtonBehaviour : MonoBehaviour
 {
+    public GameObject Menu;
+    public GameObject OptionsMenu;
+
     public int sceneIndex = 0;
 
     public void Play()
@@ -14,12 +17,14 @@ public class ButtonBehaviour : MonoBehaviour
 
     public void Options()
     {
-
+        OptionsMenu.SetActive(true);
+        Menu.SetActive(false);
     }
 
     public void MainMenu()
     {
-        
+        OptionsMenu.SetActive(false);
+        Menu.SetActive(true);
     }
 
     public void Exit()
