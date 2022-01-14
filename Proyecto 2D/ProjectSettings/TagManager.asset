@@ -50,3 +50,6 @@ TagManager:
   - name: Player
     uniqueID: 3093320413
     locked: 0
+  - name: MenuAssets
+    uniqueID: 4205239019
+    locked: 0

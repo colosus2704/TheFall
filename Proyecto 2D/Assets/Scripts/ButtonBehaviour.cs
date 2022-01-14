@@ -10,7 +10,7 @@ public class ButtonBehaviour : MonoBehaviour
 
     public int sceneIndex = 0;
 
-    public void Play()
+    public void SceneLoader()
     {
         SceneManager.LoadScene(sceneIndex);
     }
@@ -25,6 +25,11 @@ public class ButtonBehaviour : MonoBehaviour
     {
         OptionsMenu.SetActive(false);
         Menu.SetActive(true);
+    }
+    public void TryAgain()
+    {
+        SceneManager.LoadScene(1);
+        Menu.SetActive(false);
     }
 
     public void Exit()

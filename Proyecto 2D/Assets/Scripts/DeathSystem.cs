@@ -1,18 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class DeathSystem : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject GameOver;
+
+    void OnEnable()
     {
-        
+        GetComponent<HealthSystem>().Death += Dead;
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDisable()
     {
-        
+        GetComponent<HealthSystem>().Death -= Dead;
     }
+
+    private void Dead()
+    {
+        GameOver.SetActive(true);
+    }
+
 }
