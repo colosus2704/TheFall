@@ -28,7 +28,7 @@ public class ButtonBehaviour : MonoBehaviour
     }
     public void TryAgain()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Menu.SetActive(false);
     }
 

@@ -16,7 +16,7 @@ public class InputSystemKeyboard : MonoBehaviour
         hor = Input.GetAxis("Horizontal");
         ver = Input.GetAxis("Vertical");
 
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             OnFire();
         }

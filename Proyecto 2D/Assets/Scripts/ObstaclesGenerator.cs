@@ -32,33 +32,33 @@ public class ObstaclesGenerator : MonoBehaviour
 
         //-------------------------------------------------------------------------------
 
-        GameObject Spike = PoolingManager.Instance.GetPooledObject("Spikes");
-        GameObject Platform = PoolingManager.Instance.GetPooledObject("Platforms");
-        GameObject Rock = PoolingManager.Instance.GetPooledObject("Rocks");
+        GameObject Obstacle1 = PoolingManager.Instance.GetPooledObject("Obstacle1");
+        //GameObject Platform = PoolingManager.Instance.GetPooledObject("Platforms");
+        //GameObject Rock = PoolingManager.Instance.GetPooledObject("Rocks");
         GameObject Enemy = PoolingManager.Instance.GetPooledObject("Enemies");
 
-        if (Spike != null && randomMeteor == 0)
+        if (Obstacle1 != null && randomMeteor == 0)
         {
-            Spike.transform.position = positions[2].position;
-            Spike.SetActive(true);
+            Obstacle1.transform.position = positions[1].position;
+            Obstacle1.SetActive(true);
         }
-        else if (Platform != null && randomMeteor == 1)
-        {
-            Platform.transform.position = positions[1].position;
-            Platform.SetActive(true);
-        }
-        else if (Rock != null && randomMeteor == 2)
-        {
-            Rock.transform.position = positions[2].position;
-            Rock.SetActive(true);
-        }
+        //else if (Platform != null && randomMeteor == 1)
+        //{
+        //    Platform.transform.position = positions[1].position;
+        //    Platform.SetActive(true);
+        //}
+        //else if (Rock != null && randomMeteor == 2)
+        //{
+        //    Rock.transform.position = positions[2].position;
+        //    Rock.SetActive(true);
+        //}
         else if (Enemy != null && randomMeteor == 3)
         {
-            Enemy.transform.position = positions[randomPoint].position;
+            Enemy.transform.position = positions[1].position;
             Enemy.SetActive(true);
         }
 
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(4.0f);
         StartCoroutine(GenerateObstacle());
     }
 }
