@@ -2338,7 +2338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eab75d83274a8f340b28f3cb37172b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpspeed: 50
+  jumpspeed: 30
 --- !u!114 &1883837642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2542,7 +2542,7 @@ MonoBehaviour:
     amount: 5
   - Name: Floor
     objectToPool: {fileID: 717248224131010464, guid: 0f0a6174bae160b438f75bdb06d567ac, type: 3}
-    amount: 15
+    amount: 25
   - Name: Bullets
     objectToPool: {fileID: 9106567268740893368, guid: f20ef64395f97024e940db5179c0bb52, type: 3}
     amount: 10

@@ -26,9 +26,8 @@ public class ObstaclesGenerator : MonoBehaviour
 
     IEnumerator GenerateObstacle()
     {
-        var randomPoint = Random.Range(0, 3);
 
-        var randomMeteor = Random.Range(0, 4);
+        var randomMeteor = Random.Range(0, 2);
 
         //-------------------------------------------------------------------------------
 
@@ -39,7 +38,7 @@ public class ObstaclesGenerator : MonoBehaviour
 
         if (Obstacle1 != null && randomMeteor == 0)
         {
-            Obstacle1.transform.position = positions[1].position;
+            Obstacle1.transform.position = positions[0].position;
             Obstacle1.SetActive(true);
         }
         //else if (Platform != null && randomMeteor == 1)
@@ -52,9 +51,9 @@ public class ObstaclesGenerator : MonoBehaviour
         //    Rock.transform.position = positions[2].position;
         //    Rock.SetActive(true);
         //}
-        else if (Enemy != null && randomMeteor == 3)
+        else if (Enemy != null && randomMeteor == 1)
         {
-            Enemy.transform.position = positions[1].position;
+            Enemy.transform.position = positions[0].position;
             Enemy.SetActive(true);
         }
 

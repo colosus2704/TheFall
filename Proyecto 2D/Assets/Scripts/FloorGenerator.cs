@@ -26,7 +26,7 @@ public class FloorGenerator : MonoBehaviour
             Floor.SetActive(true);
         }
 
-        yield return new WaitForSeconds(0.6f);
+        yield return new WaitForSeconds(0.4f);
         StartCoroutine(GenerateFloor());
     }
 }
