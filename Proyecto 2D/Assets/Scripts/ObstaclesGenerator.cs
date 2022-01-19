@@ -5,18 +5,6 @@ using UnityEngine;
 public class ObstaclesGenerator : MonoBehaviour
 {
     [SerializeField]
-    private GameObject Obstacle1;
-
-    [SerializeField]
-    public GameObject Obstacle2;
-
-    [SerializeField]
-    public GameObject Obstacle3;
-
-    [SerializeField]
-    public GameObject Obstacle4;
-
-    [SerializeField]
     private Transform[] positions;
 
     void Start()
@@ -41,23 +29,14 @@ public class ObstaclesGenerator : MonoBehaviour
             Obstacle1.transform.position = positions[0].position;
             Obstacle1.SetActive(true);
         }
-        //else if (Platform != null && randomMeteor == 1)
-        //{
-        //    Platform.transform.position = positions[1].position;
-        //    Platform.SetActive(true);
-        //}
-        //else if (Rock != null && randomMeteor == 2)
-        //{
-        //    Rock.transform.position = positions[2].position;
-        //    Rock.SetActive(true);
-        //}
         else if (Enemy != null && randomMeteor == 1)
         {
             Enemy.transform.position = positions[0].position;
             Enemy.SetActive(true);
         }
 
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(4.5f);
         StartCoroutine(GenerateObstacle());
     }
+    //Hacer un garbage collector en el cambio de escena y mirar cuanta RAM uso.
 }
