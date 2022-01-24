@@ -19,7 +19,9 @@ public class DeathSystem : MonoBehaviour
 
     private void Dead()
     {
+
         GameOver.SetActive(true);
+        Time.timeScale = 0f;
     }
 
 }

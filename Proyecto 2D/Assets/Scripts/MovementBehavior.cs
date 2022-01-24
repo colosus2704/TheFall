@@ -13,14 +13,42 @@ public class MovementBehavior: MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private float FastForwardTime;
+    private float DashSpeed = 3;
+
+    private bool IsDashing = false;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
     }
 
+    void Dashing()
+    {
+        IsDashing = true;
+        FastForwardTime = 80;
+    }
+
     public void Move()
     {
-        rb.MovePosition(transform.position + _direction * _speed * Time.fixedDeltaTime);
+        if(IsDashing == true)
+        {
+            if(FastForwardTime >= 0)
+            {
+                rb.MovePosition(transform.position + _direction * (_speed * DashSpeed) * Time.fixedDeltaTime);
+            }
+            else
+            {
+                rb.MovePosition(transform.position + _direction * _speed * Time.fixedDeltaTime);
+                IsDashing = false;
+            }
+            FastForwardTime--;
+        }
+        else
+        {
+            rb.MovePosition(transform.position + _direction * _speed *  Time.fixedDeltaTime);
+        }
+        
     }
 
     public void Move(Vector3 dir)
@@ -37,5 +65,14 @@ public class MovementBehavior: MonoBehaviour
     {
         Vector3 dir = new Vector3(x, y, 0);
         rb.MovePosition(transform.position + dir * _speed * Time.fixedDeltaTime);
+    }
+
+    void OnEnable()
+    {
+        DashingBehaviour.Dash += Dashing;
+    }
+    void OnDisable()
+    {
+        DashingBehaviour.Dash -= Dashing;
     }
 }

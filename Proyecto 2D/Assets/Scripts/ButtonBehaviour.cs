@@ -5,14 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class ButtonBehaviour : MonoBehaviour
 {
-    public GameObject Menu;
-    public GameObject OptionsMenu;
+    [SerializeField]
+    private GameObject Menu;
+    
+    [SerializeField]
+    private GameObject OptionsMenu;
+
+    [SerializeField]
+    private GameObject Pause;
 
     public int sceneIndex = 0;
+
+    private bool Paused = true;
 
     public void SceneLoader()
     {
         SceneManager.LoadScene(sceneIndex);
+        Time.timeScale = 1f;
     }
 
     public void Options()
@@ -30,6 +39,14 @@ public class ButtonBehaviour : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Menu.SetActive(false);
+        Time.timeScale = 1f;
+    }
+
+    public void Resume()
+    {
+        Paused = false;
+        Pause.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     public void Exit()
