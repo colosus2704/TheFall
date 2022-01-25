@@ -5,8 +5,7 @@ using UnityEngine;
 
 public class MovementBehavior: MonoBehaviour
 {
-    [SerializeField]
-    private float _speed;
+    private float _speed = 6;
 
     [SerializeField]
     private Vector3 _direction;
@@ -14,7 +13,7 @@ public class MovementBehavior: MonoBehaviour
     private Rigidbody2D rb;
 
     private float FastForwardTime;
-    private float DashSpeed = 3;
+    private float DashSpeed = 2;
 
     private bool IsDashing = false;
 

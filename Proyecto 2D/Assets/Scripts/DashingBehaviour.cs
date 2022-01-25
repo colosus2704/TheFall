@@ -14,9 +14,9 @@ public class DashingBehaviour : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S) && Cooldown <= 0)
         {
-            Dash();
-            Cooldown = 10;
             Debug.Log("Estoy En Dash");
+            Cooldown = 10;
+            Dash();
         }
         else
         {

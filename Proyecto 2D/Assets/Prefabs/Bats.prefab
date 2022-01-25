@@ -147,8 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 0}
-  Wall2: {fileID: 0}
 --- !u!61 &3865068348431212388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -323,8 +321,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 0}
-  Wall2: {fileID: 0}
 --- !u!61 &5971343330268548261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -466,7 +462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a30b0313d9adffd4397eeb4a092567e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 3
+  _speed: 0
   _direction: {x: -1, y: 0, z: 0}
 --- !u!50 &-1616584836663175928
 Rigidbody2D:
@@ -501,8 +497,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 4894003450184371281, guid: 4da173daf2415094cb8af2a460710f49, type: 3}
-  Wall2: {fileID: 4632619935682731215, guid: 125846cbe79946746b44ffaaa4e8e4a0, type: 3}
 --- !u!61 &4877779921236130509
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -676,8 +670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 0}
-  Wall2: {fileID: 0}
 --- !u!61 &6977387563934477120
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -852,8 +844,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 0}
-  Wall2: {fileID: 0}
 --- !u!61 &1906923938366259696
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1027,8 +1017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Wall1: {fileID: 0}
-  Wall2: {fileID: 0}
 --- !u!61 &3447420803280879184
 BoxCollider2D:
   m_ObjectHideFlags: 0

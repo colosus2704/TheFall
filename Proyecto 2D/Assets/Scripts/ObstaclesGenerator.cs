@@ -27,11 +27,11 @@ public class ObstaclesGenerator : MonoBehaviour
     {
         if (IsDashing == false)
         {
-            yield return new WaitForSeconds(4.5f);
+            yield return new WaitForSeconds(2.5f);
         }
         else if (IsDashing == true)
         {
-            yield return new WaitForSeconds(4.5f / FastForwardTime);
+            yield return new WaitForSeconds(2.5f / FastForwardTime);
             DashTime--;
             if (DashTime <= 0)
             {

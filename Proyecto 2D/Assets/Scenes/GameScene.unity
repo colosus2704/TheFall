@@ -10721,13 +10721,13 @@ MonoBehaviour:
   pooledLists:
   - Name: Enemies
     objectToPool: {fileID: 1358080117016825193, guid: 2ba01f9f9abb37b44a09e76e9a624c47, type: 3}
-    amount: 5
+    amount: 4
   - Name: Floor
     objectToPool: {fileID: 717248224131010464, guid: 0f0a6174bae160b438f75bdb06d567ac, type: 3}
-    amount: 25
+    amount: 40
   - Name: Bullets
     objectToPool: {fileID: 9106567268740893368, guid: f20ef64395f97024e940db5179c0bb52, type: 3}
-    amount: 20
+    amount: 15
   - Name: Obstacle1
     objectToPool: {fileID: 6601164553807453141, guid: 8fd2f326d896b8b478740c3915486fae, type: 3}
     amount: 3
