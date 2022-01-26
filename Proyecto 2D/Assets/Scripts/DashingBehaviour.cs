@@ -10,12 +10,12 @@ public class DashingBehaviour : MonoBehaviour
 
     private int Cooldown = 0;
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.S) && Cooldown <= 0)
         {
             Debug.Log("Estoy En Dash");
-            Cooldown = 10;
+            Cooldown = 90;
             Dash();
         }
         else

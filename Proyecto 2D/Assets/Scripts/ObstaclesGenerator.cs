@@ -7,7 +7,7 @@ public class ObstaclesGenerator : MonoBehaviour
     [SerializeField]
     private Transform[] positions;
 
-    private float FastForwardTime = 1;
+    private float FastForwardTime = 2;
     private float DashTime = 3;
 
     private bool IsDashing = false;
@@ -38,12 +38,14 @@ public class ObstaclesGenerator : MonoBehaviour
                 IsDashing = false;
             }
         }
-        var randomMeteor = Random.Range(0, 2);
+        var randomMeteor = Random.Range(0, 4);
 
         //-------------------------------------------------------------------------------
 
         GameObject Obstacle1 = PoolingManager.Instance.GetPooledObject("Obstacle1");
+        GameObject Obstacle2 = PoolingManager.Instance.GetPooledObject("Obstacle2");
         GameObject Enemy = PoolingManager.Instance.GetPooledObject("Enemies");
+        GameObject Obstacle3 = PoolingManager.Instance.GetPooledObject("Obstacle3");
 
         if (Obstacle1 != null && randomMeteor == 0)
         {
@@ -54,6 +56,16 @@ public class ObstaclesGenerator : MonoBehaviour
         {
             Enemy.transform.position = positions[0].position;
             Enemy.SetActive(true);
+        }
+        else if (Enemy != null && randomMeteor == 2)
+        {
+            Obstacle2.transform.position = positions[0].position;
+            Obstacle2.SetActive(true);
+        }
+        else if (Enemy != null && randomMeteor == 3)
+        {
+            Obstacle3.transform.position = positions[0].position;
+            Obstacle3.SetActive(true);
         }
 
         StartCoroutine(GenerateObstacle());

@@ -42,7 +42,7 @@ public class HealthSystem : MonoBehaviour
         return health;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if(Input.GetKeyDown(KeyCode.P))
         {
