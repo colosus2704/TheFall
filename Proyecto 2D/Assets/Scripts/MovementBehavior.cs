@@ -25,7 +25,7 @@ public class MovementBehavior: MonoBehaviour
     void Dashing()
     {
         IsDashing = true;
-        FastForwardTime = 80;
+        FastForwardTime = 50;
     }
 
     public void Move()

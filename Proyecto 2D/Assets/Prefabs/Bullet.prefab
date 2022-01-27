@@ -13,6 +13,9 @@ GameObject:
   - component: {fileID: -1329225706618786328}
   - component: {fileID: 1324374767160614173}
   - component: {fileID: 8140881954109887197}
+  - component: {fileID: 1350854142237421358}
+  - component: {fileID: 3950074617995854160}
+  - component: {fileID: 2058310953357645292}
   m_Layer: 7
   m_Name: Bullet
   m_TagString: Untagged
@@ -98,8 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 917e9c99aa7439f44a1e3dfb81612a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
-  health: 0
+  maxHealth: 1
+  health: 1
 --- !u!50 &1324374767160614173
 Rigidbody2D:
   serializedVersion: 4
@@ -133,3 +136,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99d2b93f902649744bd2c8aa66dc2d5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1350854142237421358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9106567268740893368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e587b52cf831af6408697a4add054e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
+--- !u!114 &3950074617995854160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9106567268740893368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47d91c5d107a8ee468eb5835eb3f8f9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOver: {fileID: 0}
+--- !u!58 &2058310953357645292
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9106567268740893368}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0042738914, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.13568783

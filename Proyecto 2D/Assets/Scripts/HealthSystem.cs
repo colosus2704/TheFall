@@ -42,14 +42,6 @@ public class HealthSystem : MonoBehaviour
         return health;
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.P))
-        {
-            ReduceHealth(1);
-        }
-    }
-
     /*public int GetMaxHealth()
     {
         return maxHealth;

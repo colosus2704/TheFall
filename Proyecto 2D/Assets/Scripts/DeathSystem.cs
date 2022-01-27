@@ -19,9 +19,12 @@ public class DeathSystem : MonoBehaviour
 
     private void Dead()
     {
-
-        GameOver.SetActive(true);
-        Time.timeScale = 0f;
+        if(gameObject.CompareTag("Player"))
+        {
+            GameOver.SetActive(true);
+            Time.timeScale = 0f;
+        }
+        gameObject.SetActive(false);
     }
 
 }

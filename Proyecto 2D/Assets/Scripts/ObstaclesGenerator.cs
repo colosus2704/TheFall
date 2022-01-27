@@ -7,6 +7,8 @@ public class ObstaclesGenerator : MonoBehaviour
     [SerializeField]
     private Transform[] positions;
 
+    private HealthSystem _healthSystem;
+
     private float FastForwardTime = 2;
     private float DashTime = 3;
 
@@ -27,11 +29,11 @@ public class ObstaclesGenerator : MonoBehaviour
     {
         if (IsDashing == false)
         {
-            yield return new WaitForSeconds(2.5f);
+            yield return new WaitForSeconds(3f);
         }
         else if (IsDashing == true)
         {
-            yield return new WaitForSeconds(2.5f / FastForwardTime);
+            yield return new WaitForSeconds(3f / FastForwardTime);
             DashTime--;
             if (DashTime <= 0)
             {
@@ -40,11 +42,11 @@ public class ObstaclesGenerator : MonoBehaviour
         }
         var randomMeteor = Random.Range(0, 4);
 
-        //-------------------------------------------------------------------------------
+ //-------------------------------------------------------------------------------
 
         GameObject Obstacle1 = PoolingManager.Instance.GetPooledObject("Obstacle1");
         GameObject Obstacle2 = PoolingManager.Instance.GetPooledObject("Obstacle2");
-        GameObject Enemy = PoolingManager.Instance.GetPooledObject("Enemies");
+        GameObject Obstacle4 = PoolingManager.Instance.GetPooledObject("Obstacle4");
         GameObject Obstacle3 = PoolingManager.Instance.GetPooledObject("Obstacle3");
 
         if (Obstacle1 != null && randomMeteor == 0)
@@ -52,17 +54,17 @@ public class ObstaclesGenerator : MonoBehaviour
             Obstacle1.transform.position = positions[0].position;
             Obstacle1.SetActive(true);
         }
-        else if (Enemy != null && randomMeteor == 1)
+        else if (Obstacle4 != null && randomMeteor == 1)
         {
-            Enemy.transform.position = positions[0].position;
-            Enemy.SetActive(true);
+            Obstacle4.transform.position = positions[0].position;
+            Obstacle4.SetActive(true);
         }
-        else if (Enemy != null && randomMeteor == 2)
+        else if (Obstacle2 != null && randomMeteor == 2)
         {
             Obstacle2.transform.position = positions[0].position;
             Obstacle2.SetActive(true);
         }
-        else if (Enemy != null && randomMeteor == 3)
+        else if (Obstacle3 != null && randomMeteor == 3)
         {
             Obstacle3.transform.position = positions[0].position;
             Obstacle3.SetActive(true);
