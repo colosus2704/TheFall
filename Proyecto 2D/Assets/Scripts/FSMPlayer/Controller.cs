@@ -20,9 +20,13 @@ namespace FSM
             return _healthSystem.GetHealth();
         }
 
-        internal float GetInput()
+        public bool GetInputW()
         {
-            return _inputSystemKeyboard.ver;
+            return _inputSystemKeyboard.w;
+        }
+        public bool GetInputS()
+        {
+            return _inputSystemKeyboard.s;
         }
         internal bool GetGround()
         {

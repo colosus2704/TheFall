@@ -11,9 +11,9 @@ public class JumpDecision : FSM.Decision
 
     public override bool Decide(Controller controller)
     {
-        float h = controller.GetInput();
+        bool h = controller.GetInputW();
         bool g = controller.GetGround();
-        if (h > 0 && g)
+        if (h == true && g)
         {
             wPressed = true;
         }

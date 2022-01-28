@@ -12,8 +12,8 @@ public class DashDecision : FSM.Decision
 
     public override bool Decide(Controller controller)
     {
-        float h = controller.GetInput();
-        if (h < 0)
+        bool h = controller.GetInputS();
+        if (h == true)
         {
             sPressed = true;
         }
