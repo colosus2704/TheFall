@@ -1,31 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField]
     private GameObject Pause;
 
-    private bool Paused = false;
+    public static event Action<bool> GetPause = delegate { };
+
+    public static bool paused = false;
     
     
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(Paused == false)
+            if(paused == false)
             {
-                Paused = true;
+                paused = true;
                 Pause.SetActive(true);
                 Time.timeScale = 0f;
             }
             else
             {
-                Paused = false;
+                paused = false;
                 Pause.SetActive(false);
                 Time.timeScale = 1f;
             }
         }
+        GetPause(paused);
     }
 }

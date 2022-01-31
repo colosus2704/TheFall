@@ -7,7 +7,6 @@ public class ScoreSystem : MonoBehaviour
 {
     public event Action<int> ScoreUpdater = delegate { };
 
-    [SerializeField]
     private int Score = 0;
 
     private void Start()

@@ -15,20 +15,22 @@ public class CanvasInfo : MonoBehaviour
     void OnEnable()
     {        
         CanvasUpdate.TextUpdate += UpdateText;
+        CanvasUpdate.MultiplierText += UpdateMultiplier;
     }
 
     void OnDisable()
     {
         CanvasUpdate.TextUpdate -= UpdateText;
+        CanvasUpdate.MultiplierText -= UpdateMultiplier;
     }
 
-    private void Awake()
-    {        
-        ScoreText = GetComponent<Text>();
-    }
-
-    private void UpdateText(int points) 
+    private void UpdateText(int score) 
     {
-        ScoreText.text = "Score: " + String.Format("{0:00000000}", points);
+        ScoreText.text = "SCORE: " + String.Format("{0:00000000}", score);
+    }
+
+    private void UpdateMultiplier(float points)
+    {        
+        MultiplierText.text = "MULTIPLIER: x" + points;
     }
 }
