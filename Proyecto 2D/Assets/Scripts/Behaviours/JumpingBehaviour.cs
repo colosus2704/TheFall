@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JumpingBehaviour : MonoBehaviour
 {
+    public AudioClip Sound;
 
     [SerializeField]
     public float jumpspeed = 10;
@@ -29,7 +30,13 @@ public class JumpingBehaviour : MonoBehaviour
             if (GetGround())
             {
                 _rb.velocity = new Vector2(_rb.velocity.x, jumpspeed);
+                PlaySound();
             }
         }
+    }
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().clip = Sound;
+        GetComponent<AudioSource>().Play();
     }
 }

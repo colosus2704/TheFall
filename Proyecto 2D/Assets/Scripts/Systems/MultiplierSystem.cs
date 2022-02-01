@@ -27,21 +27,23 @@ public class MultiplierSystem : MonoBehaviour
     {
         Time.timeScale += 0.04f;
         MultiplierScore += 0.1f;
-        Timer = 1000;
+        Timer = 500;
 
     }
     private void Update()
     {
+        Debug.Log(Timer);
         if (Time.timeScale != 0)
         {
             Timer--;
         }
-        Updater(MultiplierScore);
+        
         if (Timer <= 0 && paused == false)
         {
-            MultiplierScore = 0;
+            MultiplierScore = 1;
             Time.timeScale = 1;
         }
+        Updater(MultiplierScore);
     }
     private void Pause(bool pause)
     {

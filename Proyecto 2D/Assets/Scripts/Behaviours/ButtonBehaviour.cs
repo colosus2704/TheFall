@@ -49,6 +49,7 @@ public class ButtonBehaviour : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+
     public void Exit()
     {
         Application.Quit();

@@ -9,6 +9,10 @@ public class DeathSystem : MonoBehaviour
 
     public GameObject GameOver;
 
+    public GameObject Particles;
+
+    public AudioClip Sound;
+
     void OnEnable()
     {
         GetComponent<HealthSystem>().Death += Dead;
@@ -23,15 +27,23 @@ public class DeathSystem : MonoBehaviour
     {
         if(gameObject.CompareTag("Player"))
         {
+            PlaySound();
             GameOver.SetActive(true);
-            Time.timeScale = 0f;
+            Particles.SetActive(true);
         }
         else if (gameObject.CompareTag("Bats"))
         {
+            PlaySound();
             gameObject.SetActive(false);
             MultiplierUp();
         }
         gameObject.SetActive(false);
+    }
+
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().clip = Sound;
+        GetComponent<AudioSource>().Play();
     }
 
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ShootSystem : ShootingSystem 
 {
+    public AudioClip Sound;
+
     public override void Shoot()
     {
         GameObject shot = PoolingManager.Instance.GetPooledObject("Bullets");
@@ -16,6 +18,12 @@ public class ShootSystem : ShootingSystem
             shot.transform.rotation = shotPoint.rotation;
             shot.SetActive(true);
             shot.GetComponent<Rigidbody2D>().AddForce(transform.right * shootingdata.fireForce);
+            PlaySound();
         }
+    }
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().clip = Sound;
+        GetComponent<AudioSource>().Play();
     }
 }

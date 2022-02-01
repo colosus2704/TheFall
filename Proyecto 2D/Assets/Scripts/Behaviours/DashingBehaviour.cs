@@ -5,6 +5,7 @@ using System;
 
 public class DashingBehaviour : MonoBehaviour
 {
+    public AudioClip Sound;
 
     public static event Action Dash = delegate { };
 
@@ -17,11 +18,17 @@ public class DashingBehaviour : MonoBehaviour
             Debug.Log("Estoy En Dash");
             Cooldown = 90;
             Dash();
+            PlaySound();
         }
         else
         {
             Cooldown--;
         }
+    }
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().clip = Sound;
+        GetComponent<AudioSource>().Play();
     }
 }
 //Window, analisis, profiler
