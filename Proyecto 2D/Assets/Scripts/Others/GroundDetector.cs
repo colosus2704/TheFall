@@ -24,7 +24,7 @@ public class GroundDetector : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         capsuleCastRad = capsule.size.x / 2;
         Vector2 position = (Vector2)transform.position + capsule.offset;
@@ -33,15 +33,4 @@ public class GroundDetector : MonoBehaviour
 
         isGrounded = Physics2D.CapsuleCast(position, capsule.size, capsule.direction, 0, Vector2.down, skinWidth, (1 << GroundLayer));
     }
-    //private void OnDrawGizmos()
-    //{
-    //    Vector3 p1 = capsuleCast1;
-    //    Vector3 p2 = capsuleCast2;
-    //    Gizmos.color = Color.green;
-    //    Gizmos.DrawWireSphere(p1, capsuleCastRad);
-    //    Gizmos.DrawWireSphere(p2, capsuleCastRad);
-    //    Gizmos.color = Color.yellow;
-    //    Gizmos.DrawWireSphere(p1, capsuleCastRad + skinWidth);
-    //    Gizmos.DrawWireSphere(p2, capsuleCastRad + skinWidth);
-    //}
 }

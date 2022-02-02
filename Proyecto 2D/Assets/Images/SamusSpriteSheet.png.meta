@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: c774c0d8c61d9d24eb020291ac8285e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9205326191363068237
+    second: SamusSpriteSheet_0
+  - first:
+      213: -2178065330241062013
+    second: SamusSpriteSheet_1
+  - first:
+      213: -3314871782453370793
+    second: SamusSpriteSheet_2
+  - first:
+      213: 898962208612357668
+    second: SamusSpriteSheet_3
+  - first:
+      213: -8377197063499951157
+    second: SamusSpriteSheet_4
+  - first:
+      213: 4759417310850274163
+    second: SamusSpriteSheet_5
+  - first:
+      213: -6848393345657095621
+    second: SamusSpriteSheet_6
+  - first:
+      213: 1431394187835466541
+    second: SamusSpriteSheet_7
+  - first:
+      213: -5378992536261619437
+    second: SamusSpriteSheet_8
+  - first:
+      213: 2022644193965162969
+    second: SamusSpriteSheet_9
+  - first:
+      213: 5243449476287611653
+    second: SamusSpriteSheet_10
+  - first:
+      213: -8378168847251592605
+    second: SamusSpriteSheet_11
+  - first:
+      213: -2863064982160060272
+    second: SamusSpriteSheet_12
+  - first:
+      213: -6478244622969708140
+    second: SamusSpriteSheet_13
+  - first:
+      213: 6862360372248017687
+    second: SamusSpriteSheet_14
+  - first:
+      213: -4516859181689612399
+    second: SamusSpriteSheet_15
+  - first:
+      213: 7532803117916342574
+    second: SamusSpriteSheet_16
+  - first:
+      213: 8821253907876541520
+    second: SamusSpriteSheet_17
+  - first:
+      213: -649253942148841558
+    second: SamusSpriteSheet_18
+  - first:
+      213: 882542428806947972
+    second: SamusSpriteSheet_19
+  - first:
+      213: 3033729901220066294
+    second: SamusSpriteSheet_20
+  - first:
+      213: 7388485175888024425
+    second: SamusSpriteSheet_21
+  - first:
+      213: -1754219393256206733
+    second: SamusSpriteSheet_22
+  - first:
+      213: -2026162839321908966
+    second: SamusSpriteSheet_23
+  - first:
+      213: -2796520096793739548
+    second: SamusSpriteSheet_24
+  - first:
+      213: 5297505353976080177
+    second: SamusSpriteSheet_25
+  - first:
+      213: 6153521246080179679
+    second: SamusSpriteSheet_26
+  - first:
+      213: -2153340084818909987
+    second: SamusSpriteSheet_27
+  - first:
+      213: -6007588564547844005
+    second: SamusSpriteSheet_31
+  - first:
+      213: 466797252439967842
+    second: SamusSpriteSheet_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SamusSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 122
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be6432d99c104080800000000000000
+      internalID: -9205326191363068237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 122
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b336d3f15f5c1e0800000000000000
+      internalID: -2178065330241062013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 123
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750a6e24da53ff1d0800000000000000
+      internalID: -3314871782453370793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 122
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42617d6ad51c97c00800000000000000
+      internalID: 898962208612357668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 122
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d3a0b7a73ebb80800000000000000
+      internalID: -8377197063499951157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 122
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3735317e3d8dc0240800000000000000
+      internalID: 4759417310850274163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 122
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ab5f5598e95f0a0800000000000000
+      internalID: -6848393345657095621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 122
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23ed731e655dd310800000000000000
+      internalID: 1431394187835466541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 125
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31116a299caf955b0800000000000000
+      internalID: -5378992536261619437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 123
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1cc409d20e11c10800000000000000
+      internalID: 2022644193965162969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 75
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503c4d7848974c840800000000000000
+      internalID: 5243449476287611653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 76
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a2357a2d3cabb80800000000000000
+      internalID: -8378168847251592605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 77
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0905d7161995448d0800000000000000
+      internalID: -2863064982160060272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 76
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4916ecfa6d6a816a0800000000000000
+      internalID: -6478244622969708140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 76
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b7f8476600c3f50800000000000000
+      internalID: 6862360372248017687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 76
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197ddee6184e051c0800000000000000
+      internalID: -4516859181689612399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 48
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29cb567684e98860800000000000000
+      internalID: 7532803117916342574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 48
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054f18431b36b6a70800000000000000
+      internalID: 8821253907876541520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf3231caf26df6f0800000000000000
+      internalID: -649253942148841558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484af30c9ab6f3c00800000000000000
+      internalID: 882542428806947972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3f3b29549f91a20800000000000000
+      internalID: 3033729901220066294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9639b012f1c298660800000000000000
+      internalID: 7388485175888024425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37eccde81c2c7a7e0800000000000000
+      internalID: -1754219393256206733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19ee19f1af91e3e0800000000000000
+      internalID: -2026162839321908966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 48
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee3e5fd9c3c039d0800000000000000
+      internalID: -2796520096793739548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 48
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13769735d05848940800000000000000
+      internalID: 5297505353976080177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd9d6678f2b56550800000000000000
+      internalID: 6153521246080179679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 8
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd462cb0a9ccd12e0800000000000000
+      internalID: -2153340084818909987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 6
+        width: 80
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b584d65b702c0aca0800000000000000
+      internalID: -6007588564547844005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SamusSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 5
+        width: 57
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26800ddb0a56a7600800000000000000
+      internalID: 466797252439967842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

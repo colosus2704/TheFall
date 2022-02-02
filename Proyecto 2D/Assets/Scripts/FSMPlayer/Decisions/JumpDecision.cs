@@ -13,7 +13,7 @@ public class JumpDecision : FSM.Decision
     {
         bool h = controller.GetInputW();
         bool g = controller.GetGround();
-        if (h == true && g)
+        if (h == true && g == true)
         {
             wPressed = true;
         }

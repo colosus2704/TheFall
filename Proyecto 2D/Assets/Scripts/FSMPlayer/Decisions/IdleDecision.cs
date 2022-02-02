@@ -11,10 +11,9 @@ public class IdleDecision : FSM.Decision
 
     public override bool Decide(Controller controller)
     {
-        bool h = controller.GetInputW();
-        bool s = controller.GetInputS();
+        //bool s = controller.GetInputS();
         bool g = controller.GetGround();
-        if (h == false && s == false && g)
+        if (/*s == false && */g == true)
         {
             a = true;
         }

@@ -10,6 +10,7 @@ public class JumpingBehaviour : MonoBehaviour
     public float jumpspeed = 10;
     private GroundDetector _groundDetector;
     private Rigidbody2D _rb;
+    private FSM.Controller _controller;
 
 
     internal bool GetGround()
@@ -21,11 +22,12 @@ public class JumpingBehaviour : MonoBehaviour
     {
         _groundDetector = GetComponent<GroundDetector>();
         _rb = GetComponent<Rigidbody2D>();
+        _controller = GetComponent<FSM.Controller>();
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (_controller.GetInputW())
         {
             if (GetGround())
             {

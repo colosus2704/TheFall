@@ -9,7 +9,6 @@ public class JumpAction : FSM.Action
     public override void Act(Controller controller)
     {
         controller.SetAnimation("idle", false);
-        controller.SetAnimation("shoot", false);
         controller.SetAnimation("dash", false);
         controller.SetAnimation("jump", true);
     }

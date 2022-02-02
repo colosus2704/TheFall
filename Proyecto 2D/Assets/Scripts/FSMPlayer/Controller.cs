@@ -37,13 +37,6 @@ namespace FSM
             _animatorController.SetBool(animation, value);
         }
 
-        public bool ActiveAI { get; set; }
-
-        public void Start()
-        {
-            ActiveAI = true; // Para activar la IA
-        }
-
         private Animator _animatorController;
         //private HealthSystem _healtSystem;
 
@@ -57,10 +50,10 @@ namespace FSM
 
         public void Update() // Se ejecutan las acciones del estado actual.
         {
-            if (!ActiveAI)                   // El parámetro permite que los 
-                return;                      // estados tengan una referencia al
-            currentState.UpdateState(this);  // controlador, para poder llamar a
-                                             // sus métodos
+            currentState.UpdateState(this);   // El parámetro permite que los 
+                                              // estados tengan una referencia al
+                                              // controlador, para poder llamar a
+                                              // sus métodos
         }
 
         public void Transition(State nextState)
