@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 9106567268740893368, guid: f20ef64395f97024e940db5179c0bb52, type: 3}
   fireForce: 600
+  sound: {fileID: 8300000, guid: d84fc021cd2338c469c422241630eba5, type: 3}

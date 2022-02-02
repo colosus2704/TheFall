@@ -11,6 +11,8 @@ public class MultiplierSystem : MonoBehaviour
     private float Timer = 600;
     private bool paused = false;
 
+    public AudioClip Sound;
+
     void OnEnable()
     {
         DeathSystem.MultiplierUp += Multiplier;
@@ -28,6 +30,7 @@ public class MultiplierSystem : MonoBehaviour
         Time.timeScale += 0.04f;
         MultiplierScore += 0.1f;
         Timer = 500;
+        PlaySound();
 
     }
     private void Update()
@@ -48,5 +51,10 @@ public class MultiplierSystem : MonoBehaviour
     private void Pause(bool pause)
     {
         paused = pause;
+    }
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().clip = Sound;
+        GetComponent<AudioSource>().Play();
     }
 }

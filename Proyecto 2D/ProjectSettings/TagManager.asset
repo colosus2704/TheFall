@@ -16,7 +16,7 @@ TagManager:
   - Player
   - Ground
   - Bullets
-  - 
+  - Bats
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3093320413
+    locked: 0
+  - name: Bats
+    uniqueID: 2318105323
     locked: 0
   - name: MenuAssets
     uniqueID: 4205239019

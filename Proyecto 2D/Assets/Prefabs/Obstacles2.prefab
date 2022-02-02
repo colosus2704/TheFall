@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5413692900394890498}
   - component: {fileID: -1190963193536997694}
   - component: {fileID: 5286077131601741895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Obstacles2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,6 +105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 804164712902914086, guid: e4eb3640454afc84eb6236274f0da0ac, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5468313892256413719, guid: e4eb3640454afc84eb6236274f0da0ac, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -166,6 +170,10 @@ PrefabInstance:
     - target: {fileID: 804164712902914086, guid: e4eb3640454afc84eb6236274f0da0ac, type: 3}
       propertyPath: m_Name
       value: Rock
+      objectReference: {fileID: 0}
+    - target: {fileID: 804164712902914086, guid: e4eb3640454afc84eb6236274f0da0ac, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5468313892256413719, guid: e4eb3640454afc84eb6236274f0da0ac, type: 3}
       propertyPath: m_RootOrder

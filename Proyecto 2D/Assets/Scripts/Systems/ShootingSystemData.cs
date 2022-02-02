@@ -7,4 +7,5 @@ public class ShootingSystemData : ScriptableObject
 {
     public GameObject projectile;
     public int fireForce;
+    public AudioClip sound;
 }
