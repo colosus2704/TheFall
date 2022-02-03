@@ -15,6 +15,9 @@ namespace FSM
         private InputSystemKeyboard _inputSystemKeyboard;
 
         private GroundDetector _groundDetector;
+
+        public Transform[] shotPoints;
+
         internal int GetCurrentHealth()
         {
             return _healthSystem.GetHealth();
@@ -31,6 +34,10 @@ namespace FSM
         internal bool GetGround()
         {
             return _groundDetector.isGrounded;
+        }
+        public Transform GetShotPoint(int position)
+        {
+            return shotPoints[position];
         }
         public void SetAnimation(string animation, bool value)
         {

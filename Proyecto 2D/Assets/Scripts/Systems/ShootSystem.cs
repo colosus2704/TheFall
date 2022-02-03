@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class ShootSystem : ShootingSystem 
 {
-    public AudioClip Sound;
-
     public override void Shoot()
     {
         GameObject shot = PoolingManager.Instance.GetPooledObject("Bullets");

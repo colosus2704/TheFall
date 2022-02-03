@@ -8,5 +8,7 @@ public abstract class ShootingSystem : MonoBehaviour
 
     public Transform shotPoint;
 
+    public AudioClip Sound;
+
     public abstract void Shoot();
 }

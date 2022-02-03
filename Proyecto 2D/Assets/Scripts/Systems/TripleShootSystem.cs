@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class TripleShootSystem : ShootingSystem
 {
     private int Shots = 3;
+
+    Quaternion rotation;
 
     public override void Shoot()
     {
@@ -14,19 +17,24 @@ public class TripleShootSystem : ShootingSystem
         {
             for (int i = 0; i < Shots; i++)
             {
-                shot[i].GetComponent<HealthSystem>().ResetHealth();
-                shot[i].transform.position = shotPoint.position;
-
-                //shot[i].transform.rotation = shotPoint.rotation;
                 switch (i)
                 {
                     case 0:
-                        shot[i].transform.rotation = shotPoint.rotation;
+                         rotation = Quaternion.Euler(shotPoint.rotation.x, shotPoint.rotation.y, shotPoint.rotation.z + 25);
                         break;
-                }
+                    case 1:  
+                        rotation = Quaternion.Euler(shotPoint.rotation.x, shotPoint.rotation.y, shotPoint.rotation.z);
+                        break;
+                    case 2:
+                        rotation = Quaternion.Euler(shotPoint.rotation.x, shotPoint.rotation.y, shotPoint.rotation.z - 25);
+                        break;
 
+                }
+                shot[i] = PoolingManager.Instance.GetPooledObject("Bullets");
+                shot[i].transform.position = shotPoint.position;
+                shot[i].transform.rotation = rotation;
                 shot[i].SetActive(true);
-                shot[i].GetComponent<Rigidbody2D>().AddForce(transform.right * shootingdata.fireForce);
+                shot[i].GetComponent<Rigidbody2D>().AddForce(shot[i].transform.right * shootingdata.fireForce);
             }
         }
 

@@ -29,7 +29,7 @@ public class MultiplierSystem : MonoBehaviour
     {
         Time.timeScale += 0.04f;
         MultiplierScore += 0.1f;
-        Timer = 500;
+        Timer = 1000;
         PlaySound();
 
     }
@@ -47,6 +47,7 @@ public class MultiplierSystem : MonoBehaviour
             Time.timeScale = 1;
         }
         Updater(MultiplierScore);
+
     }
     private void Pause(bool pause)
     {

@@ -310,7 +310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 278, y: -184}
+  m_AnchoredPosition: {x: 302, y: 197}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &47934840
@@ -20014,7 +20014,6 @@ GameObject:
   - component: {fileID: 1883837633}
   - component: {fileID: 1883837637}
   - component: {fileID: 1883837636}
-  - component: {fileID: 1883837645}
   - component: {fileID: 1883837639}
   - component: {fileID: 1883837640}
   - component: {fileID: 1883837648}
@@ -20027,6 +20026,7 @@ GameObject:
   - component: {fileID: 1883837647}
   - component: {fileID: 1883837649}
   - component: {fileID: 1883837650}
+  - component: {fileID: 1883837645}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -20146,6 +20146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: {fileID: 11400000, guid: 9f866d0eff50fc8458c3335d1c06e0d4, type: 2}
   remainState: {fileID: 0}
+  shotPoints: []
 --- !u!70 &1883837638
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -20252,7 +20253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shotPoints:
-  - {fileID: 0}
+  - {fileID: 671964040}
 --- !u!114 &1883837645
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20262,12 +20263,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1883837632}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e04848565eb61746bd1d4d3fc32ded9, type: 3}
+  m_Script: {fileID: 11500000, guid: 2987b80587b23b045835af791420d935, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootingdata: {fileID: 11400000, guid: 4f9faa1727e1fe545b0a902b384778fd, type: 2}
-  shotPoint: {fileID: 671964040}
-  Sound: {fileID: 8300000, guid: d84fc021cd2338c469c422241630eba5, type: 3}
 --- !u!114 &1883837646
 MonoBehaviour:
   m_ObjectHideFlags: 0
