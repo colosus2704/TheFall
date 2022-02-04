@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class ButtonBehaviour : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class ButtonBehaviour : MonoBehaviour
 
     public void SceneLoader()
     {
+        GC.Collect();
         SceneManager.LoadScene(sceneIndex);
         Time.timeScale = 1f;
     }
@@ -37,6 +39,7 @@ public class ButtonBehaviour : MonoBehaviour
     }
     public void TryAgain()
     {
+        GC.Collect();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Menu.SetActive(false);
         Time.timeScale = 1f;
@@ -49,6 +52,12 @@ public class ButtonBehaviour : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    public void LeaderBoard()
+    {
+        Menu.SetActive(false);
+        OptionsMenu.SetActive(true);
+
+    }
 
     public void Exit()
     {

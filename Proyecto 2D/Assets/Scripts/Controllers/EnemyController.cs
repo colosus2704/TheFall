@@ -14,6 +14,10 @@ public class EnemyController : MonoBehaviour
 
     void Update()
     {
-        _movementBehavior.Move();
+        if(Time.timeScale != 0)
+        {
+            _movementBehavior.Move();
+            Time.timeScale = Time.timeScale + 0.00001f;
+        }
     }
 }

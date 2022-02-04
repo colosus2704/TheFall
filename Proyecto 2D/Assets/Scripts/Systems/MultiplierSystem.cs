@@ -6,6 +6,7 @@ using System;
 public class MultiplierSystem : MonoBehaviour
 {
     public static event Action<float> Updater = delegate { };
+    public static event Action<float> CheckMultiplier = delegate { };
 
     private float MultiplierScore = 1;
     private float Timer = 600;
@@ -31,11 +32,11 @@ public class MultiplierSystem : MonoBehaviour
         MultiplierScore += 0.1f;
         Timer = 1000;
         PlaySound();
+        CheckMultiplier(MultiplierScore);
 
     }
     private void Update()
     {
-        Debug.Log(Timer);
         if (Time.timeScale != 0)
         {
             Timer--;

@@ -35,8 +35,14 @@ public class TripleShootSystem : ShootingSystem
                 shot[i].transform.rotation = rotation;
                 shot[i].SetActive(true);
                 shot[i].GetComponent<Rigidbody2D>().AddForce(shot[i].transform.right * shootingdata.fireForce);
+                PlaySound();
             }
         }
 
+    }
+    public void PlaySound()
+    {
+        GetComponent<AudioSource>().clip = Sound;
+        GetComponent<AudioSource>().Play();
     }
 }

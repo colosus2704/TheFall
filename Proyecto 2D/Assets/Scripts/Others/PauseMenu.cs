@@ -19,6 +19,7 @@ public class PauseMenu : MonoBehaviour
         {
             if(paused == false)
             {
+                GC.Collect();
                 paused = true;
                 Pause.SetActive(true);
                 Time.timeScale = 0f;

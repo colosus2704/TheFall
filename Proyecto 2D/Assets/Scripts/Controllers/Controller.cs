@@ -18,6 +18,8 @@ namespace FSM
 
         public Transform[] shotPoints;
 
+        public AudioClip[] Audio;
+
         internal int GetCurrentHealth()
         {
             return _healthSystem.GetHealth();
@@ -38,6 +40,10 @@ namespace FSM
         public Transform GetShotPoint(int position)
         {
             return shotPoints[position];
+        }
+        public AudioClip GetAudioClip(int position)
+        {
+            return Audio[position];
         }
         public void SetAnimation(string animation, bool value)
         {

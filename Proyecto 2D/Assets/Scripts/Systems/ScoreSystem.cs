@@ -5,9 +5,20 @@ using System;
 
 public class ScoreSystem : MonoBehaviour
 {
-    public event Action<int> ScoreUpdater = delegate { };
+    public static event Action<int> ScoreUpdater = delegate { };
 
     private int Score = 0;
+
+    private int DBscore = 0;
+
+    private void OnEnable()
+    {
+        DeathSystem.DBscore += InsertOnDb;
+    }
+    private void OnDisable()
+    {
+        DeathSystem.DBscore -= InsertOnDb;
+    }
 
     private void Start()
     {
@@ -23,8 +34,7 @@ public class ScoreSystem : MonoBehaviour
     public void ScoreIncreaser(int points)
     {
         Score += points;
-        ScoreUpdater(GetPoints());
-        
+        ScoreUpdater(GetPoints());  
     }
 
     public void ResetPoints()
@@ -37,4 +47,9 @@ public class ScoreSystem : MonoBehaviour
         return Score;
     }
 
+    public void InsertOnDb()
+    {
+        ScoresDB.CreateDB();
+        ScoresDB.AddScore(Score);
+    }
 }

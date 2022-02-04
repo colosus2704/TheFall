@@ -11,13 +11,13 @@ public class CanvasUpdate : MonoBehaviour
 
     void OnEnable()
     {
-        GetComponent<ScoreSystem>().ScoreUpdater += UpdatePoints;
+        ScoreSystem.ScoreUpdater += UpdatePoints;
         MultiplierSystem.Updater += UpdateMultiplier;
     }
 
     void OnDisable()
     {
-        GetComponent<ScoreSystem>().ScoreUpdater -= UpdatePoints;
+        ScoreSystem.ScoreUpdater -= UpdatePoints;
         MultiplierSystem.Updater -= UpdateMultiplier;
     }
 

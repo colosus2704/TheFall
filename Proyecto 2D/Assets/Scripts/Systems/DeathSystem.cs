@@ -6,6 +6,7 @@ using System;
 public class DeathSystem : MonoBehaviour
 {
     public static event Action MultiplierUp = delegate { };
+    public static event Action DBscore = delegate { };
 
     public GameObject GameOver;
 
@@ -22,12 +23,14 @@ public class DeathSystem : MonoBehaviour
         GetComponent<HealthSystem>().Death -= Dead;
     }
 
+
     private void Dead()
     {
         if (gameObject.CompareTag("Player"))
         {
             GameOver.SetActive(true);
             Particles.SetActive(true);
+            DBscore();
         }
         else if (gameObject.CompareTag("Bats"))
         {
