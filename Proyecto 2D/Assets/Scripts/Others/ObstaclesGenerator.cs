@@ -7,8 +7,6 @@ public class ObstaclesGenerator : MonoBehaviour
     [SerializeField]
     private Transform[] positions;
 
-    private HealthSystem _healthSystem;
-
     private float FastForwardTime = 2;
     private float DashTime = 3;
 
@@ -82,5 +80,4 @@ public class ObstaclesGenerator : MonoBehaviour
     {
         DashingBehaviour.Dash -= Dashing;
     }
-    //Hacer un garbage collector en el cambio de escena y mirar cuanta RAM uso.
 }

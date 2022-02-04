@@ -5,7 +5,7 @@ using System;
 
 namespace FSM
 {
-    [System.Serializable] //se necesita que se vea en el editor
+    [System.Serializable] 
     public class Transition
     {
         public Decision decision;

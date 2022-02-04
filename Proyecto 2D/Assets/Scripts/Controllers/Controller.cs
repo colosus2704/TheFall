@@ -7,8 +7,8 @@ namespace FSM
 {
     public class Controller : MonoBehaviour
     {
-        public State currentState; // apuntador al estado actual
-        public State remainState;  // el estado en el que te quedas si no pasas a la siguiente
+        public State currentState; 
+        public State remainState; 
 
         private HealthSystem _healthSystem;
 
@@ -51,7 +51,6 @@ namespace FSM
         }
 
         private Animator _animatorController;
-        //private HealthSystem _healtSystem;
 
         private void Awake()
         {
@@ -61,12 +60,9 @@ namespace FSM
             _groundDetector = GetComponent<GroundDetector>();
         }
 
-        public void Update() // Se ejecutan las acciones del estado actual.
+        public void Update() 
         {
-            currentState.UpdateState(this);   // El parámetro permite que los 
-                                              // estados tengan una referencia al
-                                              // controlador, para poder llamar a
-                                              // sus métodos
+            currentState.UpdateState(this);                                              
         }
 
         public void Transition(State nextState)

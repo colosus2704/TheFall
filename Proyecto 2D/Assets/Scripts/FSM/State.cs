@@ -7,21 +7,21 @@ namespace FSM
     [CreateAssetMenu(menuName = "FSM/Player/State")]
     public class State : ScriptableObject
     {
-        public Action[] actions; // en un state se ejecutan varias acciones
+        public Action[] actions; 
 
-        public Transition[] transitions; // Desde un estado se puede pasar a otros estados a través de las transiciones
+        public Transition[] transitions;
 
-        public void UpdateState(Controller controller) // Se ejecutan desde el Controller
+        public void UpdateState(Controller controller) 
         {
-            DoActions(controller); // Ejecutamos todas las acciones
-            CheckTransitions(controller); // Comprobamos las transiciones
+            DoActions(controller);
+            CheckTransitions(controller); 
         }
 
-        private void DoActions(Controller controller) // Ejecuta las acciones
+        private void DoActions(Controller controller) 
         {
             for(int i = 0; i < actions.Length; i++)
             {
-                actions[i].Act(controller); // Llamada al método abstracto
+                actions[i].Act(controller); 
             }
         }
 

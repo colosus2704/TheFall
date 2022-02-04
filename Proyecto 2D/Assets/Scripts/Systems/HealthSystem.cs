@@ -41,10 +41,4 @@ public class HealthSystem : MonoBehaviour
     {
         return health;
     }
-
-    /*public int GetMaxHealth()
-    {
-        return maxHealth;
-    }*/
-
 }

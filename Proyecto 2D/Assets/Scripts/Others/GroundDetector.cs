@@ -16,14 +16,11 @@ public class GroundDetector : MonoBehaviour
     float capsuleCastRad;
     
     const int GroundLayer = 8;
-
-    // Start is called before the first frame update
     void Start()
     {
         capsule = GetComponent<CapsuleCollider2D>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         capsuleCastRad = capsule.size.x / 2;

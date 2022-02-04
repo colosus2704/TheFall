@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class LeaderBoardWriter : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         ScoresDB.CreateDB();

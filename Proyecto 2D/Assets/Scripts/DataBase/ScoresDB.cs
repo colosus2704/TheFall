@@ -7,11 +7,6 @@ public static class ScoresDB
 {
 
     public static string dbName = "URI=file:Leaderboard.db";
-
-      
- 
-
-
     public static void CreateDB()
     {
         using(var connection = new SqliteConnection(dbName))

@@ -17,14 +17,12 @@ public class JumpingBehaviour : MonoBehaviour
     {
         return _groundDetector.isGrounded;
     }
-    // Start is called before the first frame update
     private void Awake()
     {
         _groundDetector = GetComponent<GroundDetector>();
         _rb = GetComponent<Rigidbody2D>();
         _controller = GetComponent<FSM.Controller>();
     }
-    // Update is called once per frame
     void Update()
     {
         if (_controller.GetInputW())

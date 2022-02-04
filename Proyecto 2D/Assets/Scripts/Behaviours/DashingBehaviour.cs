@@ -10,7 +10,6 @@ public class DashingBehaviour : MonoBehaviour
     public static event Action Dash = delegate { };
 
     private int Cooldown = 0;
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S) && Cooldown <= 0)
@@ -31,4 +30,3 @@ public class DashingBehaviour : MonoBehaviour
         GetComponent<AudioSource>().Play();
     }
 }
-//Window, analisis, profiler
