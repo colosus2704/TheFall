@@ -51,21 +51,33 @@ public class ObstaclesGenerator : MonoBehaviour
         {
             Obstacle1.transform.position = positions[0].position;
             Obstacle1.SetActive(true);
+
+            for (int i = 0; i < Obstacle1.transform.childCount; i++)
+                Obstacle1.transform.GetChild(i).gameObject.SetActive(true);
         }
         else if (Obstacle4 != null && randomMeteor == 1)
         {
             Obstacle4.transform.position = positions[0].position;
             Obstacle4.SetActive(true);
+
+            for (int i = 0; i < Obstacle4.transform.childCount; i++)
+                Obstacle4.transform.GetChild(i).gameObject.SetActive(true);
         }
         else if (Obstacle2 != null && randomMeteor == 2)
         {
             Obstacle2.transform.position = positions[0].position;
             Obstacle2.SetActive(true);
+
+            for (int i = 0; i < Obstacle2.transform.childCount; i++)
+                Obstacle2.transform.GetChild(i).gameObject.SetActive(true);
         }
         else if (Obstacle3 != null && randomMeteor == 3)
         {
             Obstacle3.transform.position = positions[0].position;
             Obstacle3.SetActive(true);
+
+            for (int i = 0; i < Obstacle3.transform.childCount; i++)
+                Obstacle3.transform.GetChild(i).gameObject.SetActive(true);
         }
 
         StartCoroutine(GenerateObstacle());
