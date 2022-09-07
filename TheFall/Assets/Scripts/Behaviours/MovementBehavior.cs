@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*This script was made to be used in various projects for its versatility, it can be used in 2D and 3D projects
+and controlls movements and in the case of this project it controlls the dash of the player aswell*/
 
 public class MovementBehavior: MonoBehaviour
 {

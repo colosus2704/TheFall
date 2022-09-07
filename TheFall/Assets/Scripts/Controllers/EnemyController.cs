@@ -6,6 +6,8 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private MovementBehavior _movementBehavior;
+    
+    private float speedUpOverTime = 0.00001f;
 
     private void Awake()
     {
@@ -17,7 +19,9 @@ public class EnemyController : MonoBehaviour
         if(Time.timeScale != 0)
         {
             _movementBehavior.Move();
-            Time.timeScale = Time.timeScale + 0.00001f;
+            Time.timeScale = Time.timeScale + speedUpOverTime;
         }
     }
 }
+
+//This script is used to move the obstacles towards the player and give them more speed the more you survive to make it get harder over time.

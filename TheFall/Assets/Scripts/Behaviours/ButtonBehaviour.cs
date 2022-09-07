@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System;
 
+//This script manages all the buttons in the menus, it's not the cleanest way to do it but it worked pretty good to me
+
 public class ButtonBehaviour : MonoBehaviour
 {
     [SerializeField]

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
+//this script is used to controll the dash of the entity you put it on, it has a cooldown so you can't press it all the time, to work it gives an event to the movement script
+
 public class DashingBehaviour : MonoBehaviour
 {
     public AudioClip Sound;
@@ -14,7 +16,6 @@ public class DashingBehaviour : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S) && Cooldown <= 0)
         {
-            Debug.Log("Estoy En Dash");
             Cooldown = 90;
             Dash();
             PlaySound();

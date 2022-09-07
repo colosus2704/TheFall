@@ -93,7 +93,7 @@ TextureImporter:
       213: 466797252439967842
     second: SamusSpriteSheet_32
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,6 +153,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -167,6 +169,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -820,6 +846,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      SamusSpriteSheet_9: 2022644193965162969
+      SamusSpriteSheet_26: 6153521246080179679
+      SamusSpriteSheet_12: -2863064982160060272
+      SamusSpriteSheet_10: 5243449476287611653
+      SamusSpriteSheet_11: -8378168847251592605
+      SamusSpriteSheet_25: 5297505353976080177
+      SamusSpriteSheet_3: 898962208612357668
+      SamusSpriteSheet_8: -5378992536261619437
+      SamusSpriteSheet_16: 7532803117916342574
+      SamusSpriteSheet_31: -6007588564547844005
+      SamusSpriteSheet_22: -1754219393256206733
+      SamusSpriteSheet_27: -2153340084818909987
+      SamusSpriteSheet_15: -4516859181689612399
+      SamusSpriteSheet_1: -2178065330241062013
+      SamusSpriteSheet_17: 8821253907876541520
+      SamusSpriteSheet_18: -649253942148841558
+      SamusSpriteSheet_6: -6848393345657095621
+      SamusSpriteSheet_7: 1431394187835466541
+      SamusSpriteSheet_20: 3033729901220066294
+      SamusSpriteSheet_14: 6862360372248017687
+      SamusSpriteSheet_19: 882542428806947972
+      SamusSpriteSheet_21: 7388485175888024425
+      SamusSpriteSheet_0: -9205326191363068237
+      SamusSpriteSheet_13: -6478244622969708140
+      SamusSpriteSheet_4: -8377197063499951157
+      SamusSpriteSheet_5: 4759417310850274163
+      SamusSpriteSheet_32: 466797252439967842
+      SamusSpriteSheet_24: -2796520096793739548
+      SamusSpriteSheet_23: -2026162839321908966
+      SamusSpriteSheet_2: -3314871782453370793
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
